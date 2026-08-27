@@ -1,0 +1,8 @@
+rtklib_bridge:
+  ros__parameters:
+    serial_port: "/dev/ttyACM0"     # GPS receiver port
+    baud_rate: 38400               # Communication speed
+    base_station: "rover"           # Rover or base mode
+    output_frame: "map"             # Coordinate frame
+    rate: 10                        # Publishing frequency (Hz)
+    # ... other RTKLIB settings

@@ -1,0 +1,1 @@
+class_loader:curl:cv_bridge:geometry_msgs:launch:launch_ros:libjsoncpp:ouster_sensor_msgs:pcl_conversions:rclcpp:rclcpp_components:rclcpp_lifecycle:rosidl_default_runtime:sensor_msgs:spdlog:std_msgs:std_srvs:tf2_ros

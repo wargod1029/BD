@@ -1,0 +1,1 @@
+rclcpp;rclcpp_components;class_loader;rclcpp_lifecycle;std_msgs;ouster_sensor_msgs;sensor_msgs;geometry_msgs;std_srvs;tf2_ros;pcl_conversions;cv_bridge;curl;spdlog;rosidl_default_runtime;launch;launch_ros;libjsoncpp;ament_cmake_gtest;gtest
