@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/risksis/Documents/intern/BD/camera/camera_for_BD/build/mvs_ros_driver/grabImgWithTriggerCPU" "/home/risksis/Documents/intern/BD/camera/camera_for_BD/build/mvs_ros_driver/test_CPU_grab" "TARGETS" "grabImgWithTriggerCPU" "test_CPU_grab" "RUNTIME_DESTINATION" "lib/mvs_ros_driver")

@@ -1,0 +1,798 @@
+20250709053332199 [DistanceTrigger] dist: 1.03434 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053333199 [DistanceTrigger] dist: 1.16083 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053333900 [DistanceTrigger] dist: 1.21518 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053334300 [DistanceTrigger] dist: 1.12042 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053334700 [DistanceTrigger] dist: 1.21077 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053335200 [DistanceTrigger] dist: 1.26671 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053335800 [DistanceTrigger] dist: 1.07752 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053336500 [DistanceTrigger] dist: 1.05428 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053337199 [DistanceTrigger] dist: 1.02045 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053337699 [DistanceTrigger] dist: 1.18271 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053338200 [DistanceTrigger] dist: 1.06176 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053338600 [DistanceTrigger] dist: 1.03396 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053339000 [DistanceTrigger] dist: 1.1063 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053339299 [DistanceTrigger] dist: 1.01469 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053339700 [DistanceTrigger] dist: 1.11957 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053340000 [DistanceTrigger] dist: 1.18388 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053340500 [DistanceTrigger] dist: 1.28092 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053341000 [DistanceTrigger] dist: 1.02371 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053342600 [DistanceTrigger] dist: 1.07232 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053343500 [DistanceTrigger] dist: 1.12649 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053343900 [DistanceTrigger] dist: 1.21002 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053344199 [DistanceTrigger] dist: 1.22979 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053344499 [DistanceTrigger] dist: 1.31492 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053344800 [DistanceTrigger] dist: 1.40561 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053344999 [DistanceTrigger] dist: 1.47012 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053345200 [DistanceTrigger] dist: 1.03473 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053345399 [DistanceTrigger] dist: 1.06864 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053345600 [DistanceTrigger] dist: 1.10005 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053345800 [DistanceTrigger] dist: 1.13471 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053346100 [DistanceTrigger] dist: 1.1493 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053346399 [DistanceTrigger] dist: 1.1895 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053346700 [DistanceTrigger] dist: 1.2097 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053347000 [DistanceTrigger] dist: 1.25925 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053347299 [DistanceTrigger] dist: 1.2648 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053347699 [DistanceTrigger] dist: 1.28708 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053348099 [DistanceTrigger] dist: 1.32168 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053348500 [DistanceTrigger] dist: 1.35264 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053348900 [DistanceTrigger] dist: 1.38014 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053349300 [DistanceTrigger] dist: 1.3848 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053349500 [DistanceTrigger] dist: 1.41069 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053349800 [DistanceTrigger] dist: 1.42282 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053350000 [DistanceTrigger] dist: 1.45029 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053350300 [DistanceTrigger] dist: 1.44526 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053350599 [DistanceTrigger] dist: 1.4741 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053350999 [DistanceTrigger] dist: 1.46186 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053351399 [DistanceTrigger] dist: 1.44916 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053352100 [DistanceTrigger] dist: 1.46539 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053352800 [DistanceTrigger] dist: 1.43329 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053353100 [DistanceTrigger] dist: 1.42439 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053353300 [DistanceTrigger] dist: 1.39049 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053353500 [DistanceTrigger] dist: 1.38842 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053353699 [DistanceTrigger] dist: 1.38132 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053353900 [DistanceTrigger] dist: 1.35534 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053354099 [DistanceTrigger] dist: 1.36144 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053354300 [DistanceTrigger] dist: 1.3522 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053354599 [DistanceTrigger] dist: 1.35527 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053354900 [DistanceTrigger] dist: 1.35611 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053355300 [DistanceTrigger] dist: 1.34962 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053355700 [DistanceTrigger] dist: 1.34462 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053356200 [DistanceTrigger] dist: 1.3717 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053356600 [DistanceTrigger] dist: 1.36425 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053356799 [DistanceTrigger] dist: 1.38952 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053357000 [DistanceTrigger] dist: 1.37387 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053357199 [DistanceTrigger] dist: 1.3899 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053357400 [DistanceTrigger] dist: 1.40219 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053357699 [DistanceTrigger] dist: 1.43118 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053358000 [DistanceTrigger] dist: 1.41938 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053358300 [DistanceTrigger] dist: 1.41532 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053358499 [DistanceTrigger] dist: 1.46955 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053358800 [DistanceTrigger] dist: 1.47878 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053359200 [DistanceTrigger] dist: 1.46261 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053359600 [DistanceTrigger] dist: 1.50028 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053359999 [DistanceTrigger] dist: 1.52944 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053400399 [DistanceTrigger] dist: 1.51621 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053400700 [DistanceTrigger] dist: 1.55209 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053401200 [DistanceTrigger] dist: 1.57235 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053401500 [DistanceTrigger] dist: 1.56137 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053401900 [DistanceTrigger] dist: 1.59348 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053402300 [DistanceTrigger] dist: 1.58216 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053402699 [DistanceTrigger] dist: 1.5903 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053403099 [DistanceTrigger] dist: 1.60249 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053403700 [DistanceTrigger] dist: 1.59208 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053404400 [DistanceTrigger] dist: 1.6263 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053405200 [DistanceTrigger] dist: 1.61146 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053405399 [DistanceTrigger] dist: 1.63352 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053405600 [DistanceTrigger] dist: 1.62821 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053405799 [DistanceTrigger] dist: 1.64123 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053406000 [DistanceTrigger] dist: 1.64988 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053406200 [DistanceTrigger] dist: 1.64552 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053406299 [DistanceTrigger] dist: 1.64621 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053406500 [DistanceTrigger] dist: 1.66206 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053406699 [DistanceTrigger] dist: 1.68204 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053407199 [DistanceTrigger] dist: 1.68055 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053408800 [DistanceTrigger] dist: 1.69422 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053409299 [DistanceTrigger] dist: 1.67218 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053409600 [DistanceTrigger] dist: 1.6842 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053409699 [DistanceTrigger] dist: 1.71226 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053409900 [DistanceTrigger] dist: 1.72643 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053410100 [DistanceTrigger] dist: 1.70133 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053410199 [DistanceTrigger] dist: 1.29995 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053410600 [DistanceTrigger] dist: 1.67112 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053411000 [DistanceTrigger] dist: 1.86039 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053411300 [DistanceTrigger] dist: 1.85634 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053411700 [DistanceTrigger] dist: 1.70652 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053412100 [DistanceTrigger] dist: 1.69682 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053412600 [DistanceTrigger] dist: 1.74205 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053412899 [DistanceTrigger] dist: 1.75236 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053413200 [DistanceTrigger] dist: 1.72122 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053413399 [DistanceTrigger] dist: 1.73808 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053413799 [DistanceTrigger] dist: 1.73645 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053414100 [DistanceTrigger] dist: 1.71946 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053414500 [DistanceTrigger] dist: 1.72923 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053414799 [DistanceTrigger] dist: 1.7202 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053415000 [DistanceTrigger] dist: 1.67639 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053415199 [DistanceTrigger] dist: 1.67352 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053415500 [DistanceTrigger] dist: 1.71392 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053415699 [DistanceTrigger] dist: 1.66749 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053415900 [DistanceTrigger] dist: 1.65487 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053416099 [DistanceTrigger] dist: 1.62989 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053416300 [DistanceTrigger] dist: 1.62066 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053416599 [DistanceTrigger] dist: 1.5993 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053416999 [DistanceTrigger] dist: 1.57972 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053417300 [DistanceTrigger] dist: 1.56215 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053417700 [DistanceTrigger] dist: 1.54317 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053417899 [DistanceTrigger] dist: 1.52611 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053418200 [DistanceTrigger] dist: 1.49018 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053418399 [DistanceTrigger] dist: 1.47007 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053418600 [DistanceTrigger] dist: 1.46904 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053418900 [DistanceTrigger] dist: 1.43978 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053419299 [DistanceTrigger] dist: 1.37901 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053419699 [DistanceTrigger] dist: 1.35011 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053420099 [DistanceTrigger] dist: 1.30897 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053420400 [DistanceTrigger] dist: 1.29803 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053420700 [DistanceTrigger] dist: 1.25689 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053420999 [DistanceTrigger] dist: 1.21841 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053421200 [DistanceTrigger] dist: 1.19022 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053421400 [DistanceTrigger] dist: 1.13247 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053421600 [DistanceTrigger] dist: 1.1039 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053421700 [DistanceTrigger] dist: 1.0525 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053421899 [DistanceTrigger] dist: 1.01327 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053422200 [DistanceTrigger] dist: 1.4237 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053422499 [DistanceTrigger] dist: 1.40133 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053423100 [DistanceTrigger] dist: 1.40428 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053423700 [DistanceTrigger] dist: 1.33597 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053424100 [DistanceTrigger] dist: 1.32614 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053424500 [DistanceTrigger] dist: 1.32752 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053424700 [DistanceTrigger] dist: 1.28389 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053425000 [DistanceTrigger] dist: 1.27641 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053425500 [DistanceTrigger] dist: 1.28022 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053426800 [DistanceTrigger] dist: 1.27764 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053427500 [DistanceTrigger] dist: 1.265 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053427900 [DistanceTrigger] dist: 1.24767 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053428200 [DistanceTrigger] dist: 1.20149 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053428600 [DistanceTrigger] dist: 1.22253 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053429100 [DistanceTrigger] dist: 1.22835 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053429500 [DistanceTrigger] dist: 1.25022 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053429799 [DistanceTrigger] dist: 1.2382 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053430100 [DistanceTrigger] dist: 1.26226 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053430400 [DistanceTrigger] dist: 1.28411 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053430600 [DistanceTrigger] dist: 1.32189 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053430900 [DistanceTrigger] dist: 1.31538 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053431400 [DistanceTrigger] dist: 1.3372 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053431999 [DistanceTrigger] dist: 1.34878 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053432499 [DistanceTrigger] dist: 1.40536 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053432899 [DistanceTrigger] dist: 1.43217 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053433200 [DistanceTrigger] dist: 1.42176 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053433399 [DistanceTrigger] dist: 1.0106 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053433600 [DistanceTrigger] dist: 1.06389 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053433799 [DistanceTrigger] dist: 1.08145 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053434000 [DistanceTrigger] dist: 1.07116 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053434299 [DistanceTrigger] dist: 1.13611 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053434500 [DistanceTrigger] dist: 1.1501 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053434800 [DistanceTrigger] dist: 1.17784 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053435099 [DistanceTrigger] dist: 1.2302 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053435300 [DistanceTrigger] dist: 1.23235 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053435400 [DistanceTrigger] dist: 1.26716 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053435599 [DistanceTrigger] dist: 1.29871 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053435800 [DistanceTrigger] dist: 1.31421 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053435999 [DistanceTrigger] dist: 1.34463 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053436200 [DistanceTrigger] dist: 1.36476 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053436399 [DistanceTrigger] dist: 1.38991 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053436600 [DistanceTrigger] dist: 1.39721 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053436799 [DistanceTrigger] dist: 1.42606 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053437000 [DistanceTrigger] dist: 1.43154 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053437200 [DistanceTrigger] dist: 1.4531 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053437400 [DistanceTrigger] dist: 1.47492 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053437699 [DistanceTrigger] dist: 1.48906 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053438099 [DistanceTrigger] dist: 1.50369 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053438800 [DistanceTrigger] dist: 1.51778 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053439400 [DistanceTrigger] dist: 1.6847 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053439700 [DistanceTrigger] dist: 1.90598 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053439899 [DistanceTrigger] dist: 1.28328 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053440200 [DistanceTrigger] dist: 1.72012 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053440399 [DistanceTrigger] dist: 1.51429 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053440600 [DistanceTrigger] dist: 1.42338 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053440800 [DistanceTrigger] dist: 1.43839 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053441100 [DistanceTrigger] dist: 1.44808 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053441299 [DistanceTrigger] dist: 1.41731 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053441600 [DistanceTrigger] dist: 1.38427 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053441799 [DistanceTrigger] dist: 1.37406 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053442000 [DistanceTrigger] dist: 1.3908 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053442299 [DistanceTrigger] dist: 1.37791 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053442600 [DistanceTrigger] dist: 1.3773 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053442900 [DistanceTrigger] dist: 1.37304 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053443099 [DistanceTrigger] dist: 1.36261 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053443300 [DistanceTrigger] dist: 1.35355 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053443499 [DistanceTrigger] dist: 1.36285 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053443700 [DistanceTrigger] dist: 1.35548 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053443800 [DistanceTrigger] dist: 1.35038 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053443999 [DistanceTrigger] dist: 1.37221 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053444200 [DistanceTrigger] dist: 1.36212 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053444399 [DistanceTrigger] dist: 1.35673 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053444700 [DistanceTrigger] dist: 1.36766 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053445000 [DistanceTrigger] dist: 1.38276 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053445299 [DistanceTrigger] dist: 1.37529 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053445600 [DistanceTrigger] dist: 1.37783 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053445900 [DistanceTrigger] dist: 1.37829 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053446199 [DistanceTrigger] dist: 1.39906 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053446500 [DistanceTrigger] dist: 1.39013 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053446900 [DistanceTrigger] dist: 1.39775 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053447200 [DistanceTrigger] dist: 1.40065 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053447499 [DistanceTrigger] dist: 1.41166 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053447900 [DistanceTrigger] dist: 1.40581 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053448200 [DistanceTrigger] dist: 1.39072 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053448600 [DistanceTrigger] dist: 1.40526 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053449000 [DistanceTrigger] dist: 1.39842 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053449200 [DistanceTrigger] dist: 1.3989 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053449500 [DistanceTrigger] dist: 1.40975 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053449700 [DistanceTrigger] dist: 1.38278 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053449899 [DistanceTrigger] dist: 1.39426 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053450200 [DistanceTrigger] dist: 1.39143 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053450399 [DistanceTrigger] dist: 1.38441 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053450600 [DistanceTrigger] dist: 1.38933 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053450900 [DistanceTrigger] dist: 1.35654 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053451199 [DistanceTrigger] dist: 1.36408 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053452000 [DistanceTrigger] dist: 1.36246 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053452700 [DistanceTrigger] dist: 1.35752 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053616800 [DistanceTrigger] dist: 591.904 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053616899 [DistanceTrigger] dist: 31.8833 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053616999 [DistanceTrigger] dist: 32.027 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053617100 [DistanceTrigger] dist: 31.8745 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053617200 [DistanceTrigger] dist: 32.0133 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053617300 [DistanceTrigger] dist: 32.3569 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053617399 [DistanceTrigger] dist: 32.8971 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053617499 [DistanceTrigger] dist: 33.2506 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053617700 [DistanceTrigger] dist: 33.2052 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053617800 [DistanceTrigger] dist: 33.3842 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053617899 [DistanceTrigger] dist: 33.4517 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053618100 [DistanceTrigger] dist: 33.5563 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053618299 [DistanceTrigger] dist: 33.4402 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053618600 [DistanceTrigger] dist: 33.1653 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053618799 [DistanceTrigger] dist: 33.0154 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053620100 [DistanceTrigger] dist: 32.9409 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053620199 [DistanceTrigger] dist: 32.7026 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053620400 [DistanceTrigger] dist: 32.2291 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053620599 [DistanceTrigger] dist: 31.8858 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053620699 [DistanceTrigger] dist: 31.3951 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053621499 [DistanceTrigger] dist: 476.64 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053621700 [DistanceTrigger] dist: 27.9901 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053622899 [DistanceTrigger] dist: 28.0446 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053623799 [DistanceTrigger] dist: 28.0219 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053624100 [DistanceTrigger] dist: 28.0179 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053624199 [DistanceTrigger] dist: 28.5395 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053624400 [DistanceTrigger] dist: 28.9742 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053624600 [DistanceTrigger] dist: 29.4924 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053624699 [DistanceTrigger] dist: 30.1689 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053624900 [DistanceTrigger] dist: 30.8201 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053625000 [DistanceTrigger] dist: 31.734 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053625199 [DistanceTrigger] dist: 32.2467 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053625400 [DistanceTrigger] dist: 32.7977 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053625599 [DistanceTrigger] dist: 33.5626 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053625800 [DistanceTrigger] dist: 34.4173 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053626099 [DistanceTrigger] dist: 35.1433 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053626400 [DistanceTrigger] dist: 35.633 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053626700 [DistanceTrigger] dist: 36.1224 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053627100 [DistanceTrigger] dist: 36.7928 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053627399 [DistanceTrigger] dist: 37.6446 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053627600 [DistanceTrigger] dist: 37.8543 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053627799 [DistanceTrigger] dist: 38.1431 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053628000 [DistanceTrigger] dist: 38.2995 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053628299 [DistanceTrigger] dist: 38.6591 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053628500 [DistanceTrigger] dist: 38.9261 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053628699 [DistanceTrigger] dist: 38.9075 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053628799 [DistanceTrigger] dist: 38.793 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053629100 [DistanceTrigger] dist: 38.7955 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053629300 [DistanceTrigger] dist: 38.8183 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053629400 [DistanceTrigger] dist: 38.8524 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053629599 [DistanceTrigger] dist: 38.5312 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053629900 [DistanceTrigger] dist: 38.003 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053630200 [DistanceTrigger] dist: 37.7504 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053630499 [DistanceTrigger] dist: 37.4693 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053630800 [DistanceTrigger] dist: 37.2984 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053631100 [DistanceTrigger] dist: 36.7657 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053631500 [DistanceTrigger] dist: 36.3826 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053631700 [DistanceTrigger] dist: 35.9432 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053631900 [DistanceTrigger] dist: 36.1621 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053632200 [DistanceTrigger] dist: 35.8281 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053632400 [DistanceTrigger] dist: 35.272 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053632500 [DistanceTrigger] dist: 34.7194 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053632699 [DistanceTrigger] dist: 34.632 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053632900 [DistanceTrigger] dist: 34.9544 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053633200 [DistanceTrigger] dist: 35.0134 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053633499 [DistanceTrigger] dist: 34.8043 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053633800 [DistanceTrigger] dist: 35.279 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053634200 [DistanceTrigger] dist: 35.4886 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053634399 [DistanceTrigger] dist: 36.0156 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053634700 [DistanceTrigger] dist: 36.4865 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053635000 [DistanceTrigger] dist: 36.8261 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053635199 [DistanceTrigger] dist: 37.1733 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053635400 [DistanceTrigger] dist: 37.9905 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053635599 [DistanceTrigger] dist: 38.6064 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053635900 [DistanceTrigger] dist: 39.1654 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053636099 [DistanceTrigger] dist: 39.549 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053636499 [DistanceTrigger] dist: 40.4556 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053636700 [DistanceTrigger] dist: 41.2465 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053636999 [DistanceTrigger] dist: 41.7832 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053637900 [DistanceTrigger] dist: 42.4104 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053638400 [DistanceTrigger] dist: 42.8641 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053638599 [DistanceTrigger] dist: 43.6427 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053638800 [DistanceTrigger] dist: 44.0821 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053638900 [DistanceTrigger] dist: 44.1475 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053639099 [DistanceTrigger] dist: 44.2904 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053639300 [DistanceTrigger] dist: 44.3421 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053639499 [DistanceTrigger] dist: 44.6512 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053639800 [DistanceTrigger] dist: 44.6414 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053639999 [DistanceTrigger] dist: 44.5893 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053640200 [DistanceTrigger] dist: 44.4197 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053640399 [DistanceTrigger] dist: 44.3981 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053640600 [DistanceTrigger] dist: 44.3052 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053640700 [DistanceTrigger] dist: 43.9815 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053640900 [DistanceTrigger] dist: 43.5314 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053641000 [DistanceTrigger] dist: 43.2929 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053641199 [DistanceTrigger] dist: 42.9345 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053641400 [DistanceTrigger] dist: 42.7347 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053641500 [DistanceTrigger] dist: 42.2312 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053641900 [DistanceTrigger] dist: 41.9617 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053642199 [DistanceTrigger] dist: 41.2259 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053642800 [DistanceTrigger] dist: 41.5755 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053643200 [DistanceTrigger] dist: 41.2297 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053643499 [DistanceTrigger] dist: 40.9252 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053643800 [DistanceTrigger] dist: 40.8668 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053644000 [DistanceTrigger] dist: 41.0808 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053644100 [DistanceTrigger] dist: 40.5482 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053644299 [DistanceTrigger] dist: 40.7593 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053644500 [DistanceTrigger] dist: 41.2487 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053644699 [DistanceTrigger] dist: 41.3296 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053645000 [DistanceTrigger] dist: 42.0897 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053645199 [DistanceTrigger] dist: 42.4375 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053645400 [DistanceTrigger] dist: 42.5524 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053645599 [DistanceTrigger] dist: 43.448 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053645800 [DistanceTrigger] dist: 44.2363 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053645999 [DistanceTrigger] dist: 44.5896 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053646200 [DistanceTrigger] dist: 45.1463 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053646499 [DistanceTrigger] dist: 45.7402 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053646700 [DistanceTrigger] dist: 46.6905 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053818600 [DistanceTrigger] dist: 42858.3 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053818899 [DistanceTrigger] dist: 809.52 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053819200 [DistanceTrigger] dist: 833.017 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053819600 [DistanceTrigger] dist: 811.603 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053820000 [DistanceTrigger] dist: 824.296 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053820500 [DistanceTrigger] dist: 826.232 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053821500 [DistanceTrigger] dist: 822.959 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053822899 [DistanceTrigger] dist: 822.611 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053824400 [DistanceTrigger] dist: 821.246 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053825499 [DistanceTrigger] dist: 824.079 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053826600 [DistanceTrigger] dist: 825.64 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053849299 [DistanceTrigger] dist: 12355.7 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053852500 [DistanceTrigger] dist: 823.113 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053854300 [DistanceTrigger] dist: 823 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053855300 [DistanceTrigger] dist: 826.819 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053855999 [DistanceTrigger] dist: 821.611 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053856700 [DistanceTrigger] dist: 817.593 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053858000 [DistanceTrigger] dist: 817.822 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053859200 [DistanceTrigger] dist: 819.622 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053900799 [DistanceTrigger] dist: 818.512 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053903200 [DistanceTrigger] dist: 814.269 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053905099 [DistanceTrigger] dist: 811.959 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053907699 [DistanceTrigger] dist: 813.984 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053909700 [DistanceTrigger] dist: 815.435 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053911900 [DistanceTrigger] dist: 809.671 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053914700 [DistanceTrigger] dist: 807.721 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053916900 [DistanceTrigger] dist: 807.546 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053920899 [DistanceTrigger] dist: 809.968 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053925799 [DistanceTrigger] dist: 809.996 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053928499 [DistanceTrigger] dist: 803.742 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053931700 [DistanceTrigger] dist: 803.194 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053933199 [DistanceTrigger] dist: 803.158 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053934800 [DistanceTrigger] dist: 804.944 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053937000 [DistanceTrigger] dist: 803.74 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053938000 [DistanceTrigger] dist: 799.542 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053939099 [DistanceTrigger] dist: 799.742 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053942299 [DistanceTrigger] dist: 801.309 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709053947600 [DistanceTrigger] dist: 803.344 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709054000600 [DistanceTrigger] dist: 799.146 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709054020700 [DistanceTrigger] dist: 794.963 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709054048800 [DistanceTrigger] dist: 796.883 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709054131599 [DistanceTrigger] dist: 800.628 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709054220100 [DistanceTrigger] dist: 799.825 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.
+20250709054321700 [DistanceTrigger] dist: 796.987 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting next synchronized bundle.

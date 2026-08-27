@@ -1,0 +1,4 @@
+ros_timestamp,/gps/fix,/ouster/points,/DA4930148/image/compressed,/DA5148680/image/compressed,/DA5148683/image/compressed,/DA5324645/image/compressed,/DA5324655/image/compressed,/DA6102933/image/compressed
+1764825337.461,0.00,10.04,0.00,0.00,10.02,10.04,10.02,10.02
+1764825338.461,0.00,10.05,0.00,0.00,10.00,10.01,10.01,10.02
+1764825339.460,0.00,10.02,0.00,0.00,9.99,10.01,10.00,10.00

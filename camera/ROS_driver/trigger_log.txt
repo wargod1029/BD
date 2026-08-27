@@ -1,0 +1,266 @@
+20241013001244300 [DistanceTrigger] dist: 1.01876 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001245000 [DistanceTrigger] dist: 1.06691 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001245500 [DistanceTrigger] dist: 1.02925 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001246000 [DistanceTrigger] dist: 1.19178 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001246500 [DistanceTrigger] dist: 1.24488 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001247000 [DistanceTrigger] dist: 1.14229 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001247400 [DistanceTrigger] dist: 1.02871 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001247900 [DistanceTrigger] dist: 1.25016 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001248300 [DistanceTrigger] dist: 1.0529 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001248699 [DistanceTrigger] dist: 1.08676 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001249099 [DistanceTrigger] dist: 1.11648 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001249499 [DistanceTrigger] dist: 1.15784 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001249899 [DistanceTrigger] dist: 1.17662 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001250300 [DistanceTrigger] dist: 1.22881 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001250700 [DistanceTrigger] dist: 1.25178 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001251100 [DistanceTrigger] dist: 1.2793 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001251500 [DistanceTrigger] dist: 1.31092 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001251799 [DistanceTrigger] dist: 1.00245 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001252100 [DistanceTrigger] dist: 1.02147 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001252400 [DistanceTrigger] dist: 1.04729 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001252699 [DistanceTrigger] dist: 1.07655 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001253000 [DistanceTrigger] dist: 1.11168 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001253300 [DistanceTrigger] dist: 1.14474 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001253599 [DistanceTrigger] dist: 1.18061 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001253900 [DistanceTrigger] dist: 1.206 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001254199 [DistanceTrigger] dist: 1.23879 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001254500 [DistanceTrigger] dist: 1.28002 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001254800 [DistanceTrigger] dist: 1.32241 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001255100 [DistanceTrigger] dist: 1.35797 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001255399 [DistanceTrigger] dist: 1.39197 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001255700 [DistanceTrigger] dist: 1.41037 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001256000 [DistanceTrigger] dist: 1.4239 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001256299 [DistanceTrigger] dist: 1.43228 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001256600 [DistanceTrigger] dist: 1.43461 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001256899 [DistanceTrigger] dist: 1.41057 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001257200 [DistanceTrigger] dist: 1.40382 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001257500 [DistanceTrigger] dist: 1.37933 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001257799 [DistanceTrigger] dist: 1.34291 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001258100 [DistanceTrigger] dist: 1.36674 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001258400 [DistanceTrigger] dist: 1.3123 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001258699 [DistanceTrigger] dist: 1.2891 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001259000 [DistanceTrigger] dist: 1.27559 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001259299 [DistanceTrigger] dist: 1.22543 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001259599 [DistanceTrigger] dist: 1.1894 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001259900 [DistanceTrigger] dist: 1.15115 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001300199 [DistanceTrigger] dist: 1.09003 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001300500 [DistanceTrigger] dist: 1.05208 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001300800 [DistanceTrigger] dist: 1.00854 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001301200 [DistanceTrigger] dist: 1.26953 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001301599 [DistanceTrigger] dist: 1.19096 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001301999 [DistanceTrigger] dist: 1.06286 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001302499 [DistanceTrigger] dist: 1.10261 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001303200 [DistanceTrigger] dist: 1.05022 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001307700 [DistanceTrigger] dist: 1.01215 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001308899 [DistanceTrigger] dist: 1.02679 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001309700 [DistanceTrigger] dist: 1.02189 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001310399 [DistanceTrigger] dist: 1.08912 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001311000 [DistanceTrigger] dist: 1.07464 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001311600 [DistanceTrigger] dist: 1.14726 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001312100 [DistanceTrigger] dist: 1.03208 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001312600 [DistanceTrigger] dist: 1.11848 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001313099 [DistanceTrigger] dist: 1.20577 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001313500 [DistanceTrigger] dist: 1.02232 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001313900 [DistanceTrigger] dist: 1.07916 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001314300 [DistanceTrigger] dist: 1.11251 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001314700 [DistanceTrigger] dist: 1.15032 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001315099 [DistanceTrigger] dist: 1.17533 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001315499 [DistanceTrigger] dist: 1.19392 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001315899 [DistanceTrigger] dist: 1.20358 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001316299 [DistanceTrigger] dist: 1.19635 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001316700 [DistanceTrigger] dist: 1.16575 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001317100 [DistanceTrigger] dist: 1.13328 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001317500 [DistanceTrigger] dist: 1.12767 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001317900 [DistanceTrigger] dist: 1.12491 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001318299 [DistanceTrigger] dist: 1.12469 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001318699 [DistanceTrigger] dist: 1.13269 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001319100 [DistanceTrigger] dist: 1.16173 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001319500 [DistanceTrigger] dist: 1.21456 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001319900 [DistanceTrigger] dist: 1.26302 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001320300 [DistanceTrigger] dist: 1.30366 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001320699 [DistanceTrigger] dist: 1.33052 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001320999 [DistanceTrigger] dist: 1.03664 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001321300 [DistanceTrigger] dist: 1.03772 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001321599 [DistanceTrigger] dist: 1.07564 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001321899 [DistanceTrigger] dist: 1.07439 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001322200 [DistanceTrigger] dist: 1.1069 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001322500 [DistanceTrigger] dist: 1.09668 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001322799 [DistanceTrigger] dist: 1.14347 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001323100 [DistanceTrigger] dist: 1.12499 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001323399 [DistanceTrigger] dist: 1.15303 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001323699 [DistanceTrigger] dist: 1.17436 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001324000 [DistanceTrigger] dist: 1.20976 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001324299 [DistanceTrigger] dist: 1.21429 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001324600 [DistanceTrigger] dist: 1.24908 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001324900 [DistanceTrigger] dist: 1.24449 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001325199 [DistanceTrigger] dist: 1.23417 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001325500 [DistanceTrigger] dist: 1.23017 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001325800 [DistanceTrigger] dist: 1.21692 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001326099 [DistanceTrigger] dist: 1.2007 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001326399 [DistanceTrigger] dist: 1.14872 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001326700 [DistanceTrigger] dist: 1.14759 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001327000 [DistanceTrigger] dist: 1.04615 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001327399 [DistanceTrigger] dist: 1.28226 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001327799 [DistanceTrigger] dist: 1.16572 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001328200 [DistanceTrigger] dist: 1.0301 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001328699 [DistanceTrigger] dist: 1.09525 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001329300 [DistanceTrigger] dist: 1.03209 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001329900 [DistanceTrigger] dist: 1.05499 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001330400 [DistanceTrigger] dist: 1.00397 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001330899 [DistanceTrigger] dist: 1.08644 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001331399 [DistanceTrigger] dist: 1.16388 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001331799 [DistanceTrigger] dist: 1.02676 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001332200 [DistanceTrigger] dist: 1.1589 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001332600 [DistanceTrigger] dist: 1.27735 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001332900 [DistanceTrigger] dist: 1.02943 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001333199 [DistanceTrigger] dist: 1.09806 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001333500 [DistanceTrigger] dist: 1.15139 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001333800 [DistanceTrigger] dist: 1.19405 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001334099 [DistanceTrigger] dist: 1.22935 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001334400 [DistanceTrigger] dist: 1.28214 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001334700 [DistanceTrigger] dist: 1.33274 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001334999 [DistanceTrigger] dist: 1.36343 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001335300 [DistanceTrigger] dist: 1.39735 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001335600 [DistanceTrigger] dist: 1.44344 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001335899 [DistanceTrigger] dist: 1.46765 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001336100 [DistanceTrigger] dist: 1.00648 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001336299 [DistanceTrigger] dist: 1.00557 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001336500 [DistanceTrigger] dist: 1.03447 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001336700 [DistanceTrigger] dist: 1.04037 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241013001336900 [DistanceTrigger] dist: 1.06131 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241018064307000 [DistanceTrigger] dist: 2.44246e+06 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20241018064311500 [DistanceTrigger] dist: 92635.1 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.
+20250704064325800 [DistanceTrigger] dist: 92943 meters
+[DistanceTrigger] Service /save_image called successfully: Trigger received, awaiting one frame from each camera.

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7056f0f50f8e6c767b8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mvs_ros_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "grabImgWithTriggerCPU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grabImgWithTriggerCPU-bc043443ea34e031c9b9.json",
+					"name" : "grabImgWithTriggerCPU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mvs_ros_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mvs_ros_driver_uninstall-eba0a00ae5fbc8c95098.json",
+					"name" : "mvs_ros_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_CPU_grab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_CPU_grab-733b5ca17d822f7a856c.json",
+					"name" : "test_CPU_grab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-252499afcab27e12af78.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver",
+		"source" : "/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/mvs_ros_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

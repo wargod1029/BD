@@ -1,0 +1,58 @@
+<launch>
+  <node 
+    pkg="mvs_ros_driver"
+    type="grabImgWithTrigger"
+    name="DA5148680"
+    args="$(find mvs_ros_driver)/config/DA5148680.yaml"
+    respawn="true"
+    output="screen"
+  />
+  <node 
+    pkg="mvs_ros_driver"
+    type="grabImgWithTrigger"
+    name="DA5324655"
+    args="$(find mvs_ros_driver)/config/DA5324655.yaml"
+    respawn="true"
+    output="screen"
+  />
+  <node 
+    pkg="mvs_ros_driver"
+    type="grabImgWithTrigger"
+    name="DA5148683"
+    args="$(find mvs_ros_driver)/config/DA5148683.yaml"
+    respawn="true"
+    output="screen"
+  />
+  <node 
+    pkg="mvs_ros_driver"
+    type="grabImgWithTrigger"
+    name="DA4930148"
+    args="$(find mvs_ros_driver)/config/DA4930148.yaml"
+    respawn="true"
+    output="screen"
+  />
+  <node 
+    pkg="mvs_ros_driver"
+    type="grabImgWithTrigger"
+    name="DA6102933"
+    args="$(find mvs_ros_driver)/config/DA6102933.yaml"
+    respawn="true"
+    output="screen"
+  />
+  <node 
+    pkg="mvs_ros_driver"
+    type="grabImgWithTrigger"
+    name="DA5324645"
+    args="$(find mvs_ros_driver)/config/DA5324645.yaml"
+    respawn="true"
+    output="screen"
+  />
+ <!-- <node 
+    pkg="rviz"
+    type="rviz"
+    name="rviz"
+    args="-d $(find mvs_ros_driver)/rviz_cfg/mvs_camera.rviz"
+  /> -->
+      launch-prefix="gdb -ex run --args"
+
+</launch>

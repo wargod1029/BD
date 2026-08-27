@@ -1,0 +1,67 @@
+[0.014s] Invoking command in '/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/mvs_ros_driver -DBUILD_CPU_ONLY=ON -DCMAKE_INSTALL_PREFIX=/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver
+[0.030s] -- Running on x86_64
+[0.031s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.288s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.328s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.333s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.343s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.414s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.416s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.658s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.711s] -- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+[0.737s] -- === CPU-ONLY MODE: OpenCV CPU + MVS SDK only ===
+[0.740s] -- OpenCV version: 4.5.4 (system)
+[0.856s] -- Configuring done
+[0.891s] -- Generating done
+[0.901s] -- Build files have been written to: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver
+[0.916s] Invoked command in '/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/mvs_ros_driver -DBUILD_CPU_ONLY=ON -DCMAKE_INSTALL_PREFIX=/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver
+[0.919s] Invoking command in '/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver -- -j4 -l4
+[0.988s] Consolidate compiler generated dependencies of target grabImgWithTriggerCPU
+[0.996s] Consolidate compiler generated dependencies of target test_CPU_grab
+[1.018s] [ 50%] Built target grabImgWithTriggerCPU
+[1.022s] [ 75%] Building CXX object CMakeFiles/test_CPU_grab.dir/src/test_CPU_grab.cpp.o
+[9.172s] [100%] Linking CXX executable test_CPU_grab
+[9.859s] [100%] Built target test_CPU_grab
+[9.900s] Invoked command in '/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver -- -j4 -l4
+[9.916s] Invoking command in '/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver
+[9.943s] -- Install configuration: ""
+[9.944s] -- Execute custom install script
+[9.944s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/lib/mvs_ros_driver/grabImgWithTriggerCPU
+[9.944s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/lib/mvs_ros_driver/test_CPU_grab
+[9.944s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/DA4930148.yaml
+[9.944s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/DA5148680.yaml
+[9.945s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/DA5148683.yaml
+[9.946s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/DA5324645.yaml
+[9.947s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/DA5324655.yaml
+[9.947s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/DA6102933.yaml
+[9.948s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/DB1597646.yaml
+[9.949s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/left_camera_trigger.yaml
+[9.950s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/config/right_camera_trigger.yaml
+[9.952s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/rviz_cfg/mvs_camera.rviz
+[9.953s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/ament_index/resource_index/package_run_dependencies/mvs_ros_driver
+[9.954s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/ament_index/resource_index/parent_prefix_path/mvs_ros_driver
+[9.955s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/environment/ament_prefix_path.sh
+[9.955s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/environment/ament_prefix_path.dsv
+[9.956s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/environment/path.sh
+[9.956s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/environment/path.dsv
+[9.957s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/local_setup.bash
+[9.957s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/local_setup.sh
+[9.958s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/local_setup.zsh
+[9.959s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/local_setup.dsv
+[9.960s] -- Symlinking: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/package.dsv
+[9.977s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/ament_index/resource_index/packages/mvs_ros_driver
+[9.979s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/cmake/mvs_ros_driverConfig.cmake
+[9.979s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/cmake/mvs_ros_driverConfig-version.cmake
+[9.984s] -- Up-to-date symlink: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/package.xml
+[9.984s] -- Up-to-date: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/launch
+[9.984s] -- Up-to-date: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/launch/mvs_multi_cam.launch.py
+[9.984s] -- Up-to-date: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/launch/hikrobot.launch.py
+[9.984s] -- Up-to-date: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/launch/mvs_multiple_camera.launch.py
+[9.985s] -- Up-to-date: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/launch/test_CPU_grab.launch.py
+[9.985s] -- Up-to-date: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/launch/mvs_camera_trigger.launch.py
+[9.985s] -- Up-to-date: /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/install/mvs_ros_driver/share/mvs_ros_driver/launch/test_cpu.launch.py
+[9.985s] Invoked command in '/home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/risksis/Documents/intern/risksis-intern/BD/camera/ROS_driver/build/mvs_ros_driver

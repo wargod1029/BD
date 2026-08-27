@@ -1,0 +1,21 @@
+#!/bin/bash
+gnome-terminal \
+  --window --title="Roscore" -e 'bash -c "cd /home/kodifly/isds_ws; source devel/setup.bash; roscore; exec bash"' \
+  --tab --title="RTK" -e 'bash -c "sleep 1; str2str -in ntrip://ntrip.geodetic.gov.hk:2101/HKCL_32 -out serial://tty_f9p:38400:8:n:1 -n 1; exec bash"' \
+  --tab --title="Sensor Recorder Launch" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; roslaunch sensor_record sensor_recorder.launch; exec bash"' \
+  --tab --title="1m Snapshot Launch" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; roslaunch lio_sam run_ouster.launch; exec bash"' \
+  --tab --title="Camera Launch" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; roslaunch mvs_ros_driver mvs_multi_cam.launch; exec bash"' \
+  --tab --title="LiDAR Launch" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; roslaunch ouster_ros driver.launch sensor_hostname:=192.168.150.184; exec bash"' \
+  --tab --title="GPS Launch" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; roslaunch gps_rtk rtk.launch; exec bash"' \
+  --tab --title="Web Video Streamer" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; rosrun web_video_server web_video_server; exec bash"' \
+  --tab --title="ROSBridge Websocket" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; roslaunch rosbridge_server rosbridge_websocket.launch; exec bash"' \
+  --tab --title="RTSP Streamer" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; roslaunch rtsp_image_transport stream_camera.launch; exec bash"' \
+  --tab --title="LiDAR Topic Echo" -e 'bash -c "sleep 1; rostopic hz /ouster/points; exec bash"' \
+  --tab --title="GPS Topic Echo" -e 'bash -c "sleep 1; rostopic hz /gps/fix; exec bash"' \
+  --tab --title="LiDAR Topic Echo" -e 'bash -c "sleep 1; sudo systemctl restart imu_gnss_publisher.service; exec bash"' \
+  --tab --title="LiDAR Topic Echo" -e 'bash -c "sleep 1; sudo systemctl restart equipment_status.service; exec bash"' \
+  # --tab --title="Camera Topic Echo" -e 'bash -c "sleep 1; cd /home/kodifly/isds_ws; source devel/setup.bash; ros2 run nv_hikrobot_ros_driver frequency_bandwidth_logger; exec bash"' \
+  
+  # --tab --title="GPRMC Rebroadcast" -e 'bash -c "sleep 1; cd /home/kodifly/workspaces/isds_timesync_ws/src; python3 gprmc_forwarder.py; exec bash"' \
+  # --tab --title="GPS Heading Topic Echo" -e 'bash -c "sleep 1; rostopic echo /gps/heading; exec bash"' \
+  --geometry=100x25+10+10

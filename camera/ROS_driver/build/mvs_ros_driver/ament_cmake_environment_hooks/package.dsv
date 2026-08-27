@@ -1,0 +1,4 @@
+source;share/mvs_ros_driver/local_setup.bash
+source;share/mvs_ros_driver/local_setup.dsv
+source;share/mvs_ros_driver/local_setup.sh
+source;share/mvs_ros_driver/local_setup.zsh

@@ -1,0 +1,58 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Single Camera Config — CPU Testing (DB1597645 / MV-CH100-60UC)
+#--------------------------------------------------------------------------------------------
+SerialNumber: "DB1597645"
+TopicName: "DB1597645/image"
+
+TriggerEnable: 0 # 0 = free-run (no trigger), 1 = hardware trigger
+
+# Exposure — Off (0): manual exposure time.  Once (1): auto once.  Continues (2): auto continuous
+ExposureAutoMode: 2
+AutoExposureTimeLower: 100
+AutoExposureTimeUpper: 5000
+ExposureTime: 3000
+
+image_scale: 0.5 # 1.0 = full resolution, 0.5 = half, 0.25 = quarter
+
+GainAuto: 2
+Gain: 15.0
+AutoGainLowerLimit: 0.0
+AutoGainUpperLimit: 17.0166
+
+Gamma: 0.7
+GammaSelector: 1 # 0=User, 1=sRGB
+
+Brightness: 80
+
+AutoFunctionAOIHeight: 640
+AutoFunctionAOIWidth: 640
+AutoFunctionAOIOffsetX: 1792
+AutoFunctionAOIOffsetY: 1354
+
+PixelFormat: 5 # 0=RGB8, 1=BayerRG8, 2=BayerRG12Packed, 3=BayerGB12Packed, 4=BayerGB8, 5=BayerGR8
+
+#--------------------------------------------------------------------------------------------
+# Camera Calibration (placeholder — run chessboard calibration for real values)
+#--------------------------------------------------------------------------------------------
+CameraMatrix:
+  - 1.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+
+DistCoeffs:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0

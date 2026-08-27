@@ -1,0 +1,58 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+SerialNumber: "DA6102933" # Not needed for single camera. Specify serial number for multiple cameras. 
+TopicName: "DA6102933/image"
+
+TriggerEnable: 1 # 0 stands for Off, 1 stands for On
+
+# ExposureAutoMode: 0 # 0 stands for Off, 1 stands for Once, 2 stands for Continues
+# ExposureTime: 3000 # us
+
+ExposureAutoMode: 2
+AutoExposureTimeLower: 100
+AutoExposureTimeUpper: 5000
+
+image_scale: 0.25 # 1 0.5
+GainAuto: 2 # Gain Auto, 0 stands for Off, 1 stands for Once, 2 stands for Continues
+Gain: 15 # min: 0   max: 17.0166
+AutoGainLowerLimit: 0.0 # min: 0   max: 17.0166
+AutoGainUpperLimit: 17.0166 # min: 0   max:
+Gamma: 0.7  # min: 0   max: 17.0166
+GammaSelector: 1 # 0 stands for user, 1 stands for sRGB
+# GammaEnable: 1
+Brightness: 80
+
+AutoFunctionAOIHeight: 640 #int
+AutoFunctionAOIWidth: 640 #int
+AutoFunctionAOIOffsetX: 1792  #int
+AutoFunctionAOIOffsetY: 1354 #int
+
+PixelFormat: 5 # 0: RGB8, 1: BayerRG8, 2: BayerRG12Packed, 3: BayerGB12Packed, 4: BayerGB8
+
+#--------------------------------------------------------------------------------------------
+# Camera Calibration Parameters (Add these)
+#--------------------------------------------------------------------------------------------
+CameraMatrix:
+  - 1422.18129
+  - 0.0
+  - 2017.285053
+  - 0.0
+  - 1421.822766
+  - 1232.094237
+  - 0.0
+  - 0.0
+  - 1.0
+
+DistCoeffs:
+  - 0.602916894
+  - 0.05030154934
+  - -2.022050003e-05
+  - 1.21141271e-05
+  - 0.0002782603798
+  - 0.9373883307
+  - 0.1707547416
+  - 0.00410583338
+

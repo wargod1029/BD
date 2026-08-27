@@ -1,0 +1,747 @@
+    1  curl -s 'https://raw.githubusercontent.com/zerotier/ZeroTierOne/main/doc/contact%40zerotier.com.gpg' | gpg --import &amp;&amp; \
+    2  if z=$(curl -s 'https://install.zerotier.com/' | gpg); then echo "$z" | sudo bash; fi
+    3  sudo apt update
+    4  sudo reboot
+    5  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    6  sudo apt install curl # if you haven't already installed curl
+    7  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+    8  sudo apt update && sudo apt install -y ros-noetic-desktop-full
+    9  echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+   10  source ~/.bashrc
+   11  roscore
+   12  sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+   13  sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
+   14  sudo apt install python3-pip 
+   15  sudo rosdep init
+   16  rosdep update
+   17  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+   18  sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+   19  wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda-repo-ubuntu2004-12-1-local_12.1.0-530.30.02-1_amd64.deb
+   20  sudo dpkg -i cuda-repo-ubuntu2004-12-1-local_12.1.0-530.30.02-1_amd64.deb
+   21  sudo cp /var/cuda-repo-ubuntu2004-12-1-local/cuda-*-keyring.gpg /usr/share/keyrings/
+   22  sudo apt-get update
+   23  sudo apt-get -y install cuda
+   24  reboot
+   25  sudo reboot
+   26  sudo apt update
+   27  sudo apt install -y curl
+   28  curl -s 'https://raw.githubusercontent.com/zerotier/ZeroTierOne/main/doc/contact%40zerotier.com.gpg' | gpg --import &amp;&amp; \
+   29  if z=$(curl -s 'https://install.zerotier.com/' | gpg); then echo "$z" | sudo bash; fi
+   30  curl -s 'https://raw.githubusercontent.com/zerotier/ZeroTierOne/main/doc/contact%40zerotier.com.gpg' | gpg --import &amp;&amp; \
+   31  curl -s 'https://raw.githubusercontent.com/zerotier/ZeroTierOne/main/doc/contact%40zerotier.com.gpg' | gpg --import &amp;&amp; if z=$(curl -s 'https://install.zerotier.com/' | gpg); then echo "$z" | sudo bash; fi
+   32  curl -s https://install.zerotier.com | sudo bash
+   33  sudo zerotier-cli join 56374ac9a4e73e2a
+   34  ifconfig
+   35  sudo apt install -y net-tools
+   36  ifconfig
+   37  cd Downloads/
+   38  sudo dpkg -i nomachine_9.0.188_11_amd64.deb 
+   39  systemctl status nxserver.service
+   40  sudo systemctl status ssh
+   41  sudo apt install -y openssh-server
+   42  sudo ssh service status
+   43  sudo systemctl status ssh
+   44  nvcc --version
+   45  nvidia-smi
+   46  sudo apt install nvidia-cuda-toolkit
+   47  sudo apt --fix-broken install
+   48  reboot
+   49  sudo reboot
+   50  nano ~/.bashrc
+   51  wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda_12.1.0_530.30.02_linux.run
+   52  sudo sh cuda_12.1.0_530.30.02_linux.run
+   53  nvidia-smi
+   54  sudo sh cuda_12.1.0_530.30.02_linux.run
+   55  sudo apt purge nvidia*
+   56  sudo sh cuda_12.1.0_530.30.02_linux.run
+   57  code /var/log/cuda-installer.log
+   58  reboot
+   59  sudo reboot
+   60  sudo sh cuda_12.1.0_530.30.02_linux.run
+   61  nvidia-smi
+   62  sudo dpkg -i cuda-repo-ubuntu2004-12-1-local_12.1.0-530.30.02-1_amd64.deb
+   63  sudo cp /var/cuda-repo-ubuntu2004-12-1-local/cuda-*-keyring.gpg /usr/share/keyrings/
+   64  sudo apt update && sudo apt upgrade -y
+   65  sudo cp /var/cuda-repo-ubuntu2004-12-1-local/cuda-*-keyring.gpg /usr/share/keyrings/
+   66  sudo apt install -y cuda
+   67  sudo apt-get purge cuda* nvidia*
+   68  sudo apt-get purge cuda*
+   69  sudo apt-get purge nvidia*
+   70  sudo apt --fix-broken install
+   71  sudo apt autoremove
+   72  sudo sh cuda_12.1.0_530.30.02_linux.run
+   73  reboot
+   74  sudo reboot
+   75  sudo sh cuda_12.1.0_530.30.02_linux.run
+   76  code /var/log/nvidia-installer.log
+   77  ubuntu-drivers devices
+   78  # Run the installer with the uninstall flag
+   79  sudo sh cuda_12.1.0_530.30.02_linux.run --uninstall
+   80  # Purge any other nvidia packages from the system
+   81  sudo apt purge --autoremove 'nvidia.*'
+   82  # Reboot to return to a clean state with the default video driver
+   83  sudo reboot
+   84  sudo apt install nvidia-driver-570
+   85  sudo apt install nvidia-driver-530
+   86  sudo apt install nvidia-driver-570
+   87  sudo reboot
+   88  sudo sh cuda_12.1.0_530.30.02_linux.run
+   89  nano ~/.bashrc
+   90  source ~/.bashrc
+   91  nvidia-smi
+   92  nvcc --version
+   93  reboot
+   94  sudo reboot
+   95  unzip driver.zip 
+   96  rm -rf driver.zip 
+   97  sudo apt install -y rtklib
+   98  sudo nano /etc/udev/rules.d/gps-rtk.rules
+   99  sudo udevadm control --reload-rules
+  100  sudo udevadm trigger
+  101  cd ..
+  102  catkin_make
+  103  pip install jetson-utils
+  104  git clone https://github.com/dusty-nv/jetson-utils
+  105  ls
+  106  rm -rf jetson-utils/
+  107  cd
+  108  git clone https://github.com/dusty-nv/jetson-utils
+  109  cd jetson-utils
+  110  mkdir build && cd build
+  111  cmake ../
+  112  make -j$(nproc)
+  113  sudo apt-get install libgstreamer1.0-dev
+  114  make -j$(nproc)
+  115  sudo apt-get instal libsoup2.4-dev
+  116  sudo apt-get install libsoup2.4-dev
+  117  make -j$(nproc)
+  118  apt-cache search tensorrt
+  119  sudo apt-get install tensorrt
+  120  sudo ldconfig
+  121  make -j$(nproc)
+  122  sudo apt-get update
+  123  sudo apt-get install libnvinfer-dev libnvinfer-plugin-dev
+  124  dpkg -l | grep tensorrt
+  125  sudo apt-get update
+  126  sudo apt-get install libnvinfer-dev
+  127  sudo apt purge nv-tensorrt-local-repo-ubuntu2004-10.10.0-cuda-12.9 
+  128  sudo apt-get update
+  129  sudo apt-get install libnvinfer-dev
+  130  ls
+  131  cd
+  132  ls
+  133  cd Downloads/
+  134  ls
+  135  sudo dpkg -i nv-tensorrt-local-repo-ubuntu2004-10.10.0-cuda-12.9_1.0-1_amd64.deb 
+  136  sudo cp /var/nv-tensorrt-local-repo-ubuntu2004-10.10.0-cuda-12.9/nv-tensorrt-local-51C388DF-keyring.gpg /usr/share/keyrings/
+  137  sudo apt update
+  138  sudo apt-get install libnvinfer-dev
+  139  cd
+  140  cd jetson-utils/build/
+  141  make -j$(nproc)
+  142  sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-good1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-tools
+  143  make -j$(nproc)
+  144  sudo apt-get install libjson-glib-dev
+  145  make -j$(nproc)
+  146  sudo apt-get install libgstrtspserver-1.0-dev
+  147  make -j$(nproc)
+  148  sudo make install
+  149  cd
+  150  ls
+  151  cd isds_ws/
+  152  catkin_make
+  153  sudo apt-get install libspdlog-dev
+  154  catkin_make
+  155  sudo apt-get install libnvonnxparser-dev
+  156  ls
+  157  rm -rf build deve
+  158  rm -rf build devel
+  159  catkin_make
+  160  sudo find /usr -name "NvOnnxParser.h"
+  161  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb
+  162  sudo dpkg -i cuda-keyring_1.1-1_all.deb
+  163  sudo apt-get update
+  164  sudo find /usr -name "*nvinfer*"
+  165  sudo find /usr -name "*nvonnxparser*"
+  166  sudo apt-get install libnvonnxparser-dev
+  167  cd
+  168  wget https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.1.0/tars/TensorRT-10.1.0.11.Linux.x86_64-gnu.cuda-12.4.cudnn-9.1.tar.gz
+  169  cd isds_ws/
+  170  catkin_make
+  171  wget https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.1.0/tars/TensorRT-10.1.0.11.Linux.x86_64-gnu.cuda-12.4.cudnn-9.1.tar.gz
+  172  dpkg -l | grep tensorrt
+  173  sudo apt-get update
+  174  sudo apt-get install libnvonnxparser-dev
+  175  neofetch
+  176  sudo apt install -y neofetch
+  177  neofetch
+  178  nvcc --version
+  179  nvidia-smi
+  180  sudo dpkg -i nv-tensorrt-local-repo-ubuntu2004-10.10.0-cuda-12.9_1.0-1_amd64.deb 
+  181  cd
+  182  cd jetson-utils/build/
+  183  make -j$(nproc)
+  184  sudo make install
+  185  cd
+  186  ls
+  187  cd isds_ws/
+  188  ls
+  189  catkin_make
+  190  sudo ldconfig
+  191  catkin_make
+  192  rm -rf build/ devel/
+  193  catkin_make
+  194  cd 
+  195  ls
+  196  sudo apt-get install tensorrt
+  197  cd isds_ws/
+  198  catkin_make
+  199  neofetch
+  200  git clone https://github.com/opencv/opencv.git
+  201  git clone https://github.com/opencv/opencv_contrib.git
+  202  cd opencv
+  203  git checkout 4.12.0
+  204  git status
+  205  git pull
+  206  git checkout 4.12.0
+  207  cd ~/opencv_build/opencv
+  208  git tag | sort -V | tail -n 5
+  209  git checkout 4.11.0
+  210  cd ../opencv_contrib/
+  211  git checkout 4.11.0
+  212  cd ..
+  213  cd opencv/build
+  214  cd opencv
+  215  ls
+  216  mkdir build
+  217  cd build
+  218  cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON     -D WITH_TBB=ON     -D WITH_V4L=ON     -D WITH_CUDA=ON     -D WITH_CUDNN=ON     -D OPENCV_DNN_CUDA=ON     -D ENABLE_FAST_MATH=1     -D CUDA_FAST_MATH=1     -D CUDA_ARCH_BIN=8.6     -D WITH_CUBLAS=1 ..
+  219  cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON     -D WITH_TBB=ON     -D WITH_V4L=ON     -D WITH_CUDA=ON     -D WITH_CUDNN=ON     -D OPENCV_DNN_CUDA=ON     -D ENABLE_FAST_MATH=1     -D CUDA_FAST_MATH=1     -D CUDA_ARCH_BIN=8.6     -D WITH_CUBLAS=1 ..
+  220  sudo apt install gcc build-essential
+  221  wget https://developer.download.nvidia.com/compute/cudnn/9.10.2/local_installers/cudnn-local-repo-ubuntu2004-9.10.2_1.0-1_amd64.deb
+  222  sudo dpkg -i cudnn-local-repo-ubuntu2004-9.10.2_1.0-1_amd64.deb
+  223  sudo cp /var/cudnn-local-repo-ubuntu2004-9.10.2/cudnn-*-keyring.gpg /usr/share/keyrings/
+  224  sudo apt update && sudo apt -y install cudnn
+  225  sudo apt-get install --reinstall libopenjp2-7-dev libgtk-3-dev
+  226  cd ..
+  227  rm -rf build
+  228  mkdir build
+  229  cd build/
+  230  cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_GENERATE_PKGCONFIG=ON     -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules     -D BUILD_EXAMPLES=ON     -D WITH_TBB=ON     -D WITH_V4L=ON     -D WITH_CUDA=ON     -D WITH_CUDNN=ON     -D OPENCV_DNN_CUDA=ON     -D ENABLE_FAST_MATH=1     -D CUDA_FAST_MATH=1     -D CUDA_ARCH_BIN=8.6     -D WITH_CUBLAS=1     -D WITH_NVCUVID=OFF     -D WITH_NVCUVENC=OFF ..
+  231  make -j$(nproc)
+  232  sudo make install
+  233  sudo ldconfig
+  234  cd ../..
+  235  sudo dpkg -i MVS-3.0.1_x86_64_20241128.deb 
+  236  mkdir -p isds_ws/src
+  237  cd isds_ws/src
+  238  code .
+  239  cd isds_ws/
+  240  source devel/setup.bash
+  241  ls
+  242  cd src
+  243  ls
+  244  cd src
+  245  ls
+  246  ifconfig
+  247  ping www.google.com
+  248  ls
+  249  clear
+  250  pip install pyserial
+  251  source devel/setup.bash
+  252  ./src/src/run_sensors 
+  253  roslaunch gps_rtk rtk.launch 
+  254  pip install ublox_msgs
+  255  roslaunch gps_rtk rtk.launch 
+  256  sudo apt install ros-$ROS_DISTRO-ublox-msgs
+  257  roslaunch gps_rtk rtk.launch 
+  258  pip install pyubx2
+  259  roslaunch gps_rtk rtk.launch 
+  260  rviz
+  261  neofetch
+  262  ls
+  263  cd
+  264  cd gtsam/build
+  265  sudo make install
+  266  rm -rf build
+  267  rm -rf *
+  268  cd ..
+  269  sudo rm -rf build
+  270  mkdir build && cd build
+  271  cmake ..
+  272  make -j8
+  273  cd
+  274  cd isds_ws/
+  275  catkin_make
+  276  cd
+  277  cd gtsam/
+  278  cd build
+  279  sudo make install
+  280  cd 
+  281  cd isds_ws/
+  282  catkin_make
+  283  rm -rf build devel/
+  284  catkin_make
+  285  ls
+  286  cd src
+  287  ls
+  288  rm -rf FAST_LIO/
+  289  cd ..
+  290  catkin_make
+  291  rm -rf build devel
+  292  catkin_make
+  293  cd ..
+  294  cd gtsam/build/
+  295  sudo make uninstall
+  296  cd ..
+  297  cd
+  298  cd isds_ws/
+  299  rm -rf build/ devel/
+  300  catkin_make
+  301  cd 
+  302  cd gtsam/
+  303  cd build/
+  304  sudo make install
+  305  cd
+  306  cd isds_ws/
+  307  catkin_make
+  308  cd
+  309  cd gtsam/
+  310  cd build/
+  311  sudo make uninstall
+  312  ls
+  313  cd ..
+  314  rm -rf gtsam/
+  315  sudo apt-get install -y ros-kinetic-navigation
+  316  sudo apt-get install -y ros-kinetic-robot-localization
+  317  sudo apt-get install -y ros-kinetic-robot-state-publisher
+  318  sudo apt-get install -y ros-noetic-navigation
+  319  sudo apt-get install -y ros-noetic-robot-state-publisher
+  320  sudo apt-get install -y ros-kinetic-navigation
+  321  sudo apt-get install -y ros-kinetic-robot-localization
+  322  sudo apt-get install -y ros-kinetic-robot-state-publisher
+  323  sudo apt-get install -y ros-noetic-robot-localization
+  324  sudo apt-get install -y ros-kinetic-navigation
+  325  sudo apt-get install -y ros-kinetic-robot-localization
+  326  sudo apt-get install -y ros-noetic-robot-state-publisher
+  327  sudo add-apt-repository ppa:borglab/gtsam-release-4.0
+  328  sudo apt install libgtsam-dev libgtsam-unstable-dev
+  329  cd isds_ws/
+  330  rm -rf build/ devel/
+  331  catkin_make
+  332  sudo apt-get update
+  333  sudo apt-get install libusb-1.0-0-dev
+  334  catkin_make
+  335  rm -rf build/ devel/
+  336  catkin_make
+  337  sudo apt install libusb-dev -y
+  338  catkin_make
+  339  pkg-config --libs libusb
+  340  source ~/.bashrc
+  341  catkin_make
+  342  nano ~/.bashrc
+  343  source ~/.bashrc
+  344  catkin_make
+  345  ./src/run_sensors 
+  346  rostopic echo /gps/fix
+  347  rqt
+  348  ls /dev/tty*
+  349  cat /dev/tty_f9p
+  350  watch 
+  351  watch cat /dev/tty_f9p
+  352  cat /dev/tty_f9p
+  353  cd isds_ws/src/
+  354  ./run_sensors 
+  355  ./check_timestamp
+  356  ./run_sensors 
+  357  ./check_timestamp
+  358  ./run_sensors 
+  359  ./check_timestamp
+  360  ./run_sensors 
+  361  ./check_timestamp
+  362  cd isds_ws/
+  363  catkin_make
+  364  rm -rf build/ devel/
+  365  caktin_make
+  366  catkin_make
+  367  cd src
+  368  ./run_sensors 
+  369  ./check_timestamp
+  370  cd isds_ws/src/
+  371  ./run_sensors 
+  372  ./check_timestamp
+  373  cat timeshare 
+  374  clear
+  375  curl -fsSL https://pkgs.netbird.io/install.sh | sh
+  376  curl -fsSL https://pkgs.netbird.io/install.sh | sh && curl -fsSL https://pkgs.netbird.io/install.sh | sh && sudo netbird up --setup-key 39B05F4A-8745-479E-8053-9AB9B96F75FE
+  377  clear
+  378  curl -fsSL https://pkgs.netbird.io/install.sh | sh && sudo netbird up --setup-key 39B05F4A-8745-479E-8053-9AB9B96F75FE
+  379  ssh-keygen -t rsa -b 4096 -C "osama.nadeem@kodifly.com"
+  380  eval "$(ssh-agent -s)"
+  381  ssh-add ~/.ssh/id_rsa
+  382  cat ~/.ssh/id_rsa.pub
+  383  ssh -T git@github.com
+  384  git clone git@github.com:Kodifly/EMSD-Signboard.git
+  385  ls
+  386  cd Desktop/
+  387  pwd
+  388  ls
+  389  sudo nano /etc/systemd/system/equipment_status.service
+  390  sudo systemctl daemon-reload
+  391  sudo systemctl enable equipment_status.service
+  392  sudo systemctl start  equipment_status.service
+  393  sudo systemctl status equipment_status.service
+  394  journalctl -u equipment_status.service -f
+  395  pip install websockets
+  396  sudo systemctl restart  equipment_status.service
+  397  sudo systemctl status equipment_status.service
+  398  journalctl -u equipment_status.service -f
+  399  sudo nano /etc/systemd/system/imu_gnss_publisher.service
+  400  sudo systemctl daemon-reload
+  401  sudo systemctl enable imu_gnss_publisher.service
+  402  sudo systemctl start  imu_gnss_publisher.service
+  403  sudo systemctl status imu_gnss_publisher.service
+  404  journalctl -u imu_gnss_publisher.service -f
+  405  sudo nano /etc/systemd/system/imu_gnss_publisher.service
+  406  sudo systemctl daemon-reload
+  407  sudo systemctl restart  imu_gnss_publisher.service
+  408  sudo systemctl status imu_gnss_publisher.service
+  409  journalctl -u imu_gnss_publisher.service -f
+  410  sudo nano /etc/systemd/system/imu_gnss_publisher.service
+  411  clear
+  412  sudo nano /etc/systemd/system/imu_gnss_publisher.service
+  413  sudo systemctl daemon-reload
+  414  sudo systemctl enable imu_gnss_publisher.service
+  415  sudo systemctl start  imu_gnss_publisher.service
+  416  sudo systemctl status imu_gnss_publisher.service
+  417  journalctl -u imu_gnss_publisher.service -f
+  418  clear
+  419  sudo nano /etc/systemd/system/imu_gnss_publisher.service
+  420  sudo systemctl daemon-reload
+  421  sudo systemctl enable imu_gnss_publisher.service
+  422  sudo systemctl start  imu_gnss_publisher.service
+  423  sudo systemctl status imu_gnss_publisher.service
+  424  journalctl -u imu_gnss_publisher.service -f
+  425  sudo apt update
+  426  journalctl -u celery.service -n 10
+  427  clear
+  428  cd backend/
+  429  source venv/bin/activate
+  430  python manage.py createsuperuser --settings=config.settings.production
+  431  gitn pull
+  432  git pull
+  433  clear
+  434  cloudflared tunnel login
+  435  sudo apt install cloudflared
+  436  sudo mkdir -p --mode=0755 /usr/share/keyrings
+  437  curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+  438  echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
+  439  sudo apt-get update && sudo apt-get install cloudflared
+  440  cloudflared tunnel login
+  441  clear
+  442  cloudflared tunnel login
+  443  cloudflared tunnel create signboard-loco-tunnel
+  444  nano ~/.cloudflared/config.yml
+  445  cloudflared tunnel route dns signboard-loco-tunnel signboard-loco.itsosamanadeem.com
+  446  sudo nano nano /etc/systemd/system/cloudflared.service
+  447  sudo nano /etc/systemd/system/cloudflared.service
+  448  sudo nano nano /etc/systemd/system/cloudflared.service
+  449  ls /etc/systemd/system/
+  450  sudo nano nano /etc/systemd/system/cloudflared.service
+  451  sudo systemctl daemon-reload
+  452  sudo systemctl enable cloudflared
+  453  sudo systemctl restart cloudflared
+  454  sudo systemctl status cloudflared
+  455  journalctl -u cloudflared.service 
+  456  clear
+  457  sudo nano /etc/systemd/system/cloudflared.service
+  458  sudo systemctl daemon-reload
+  459  sudo systemctl restart cloudflared
+  460  sudo systemctl status cloudflared
+  461  journalctl -u cloudflared.service 
+  462  clear
+  463  journalctl -u cloudflared.service -n 20
+  464  sudo nano /etc/systemd/system/cloudflared.service
+  465  sudo systemctl daemon-reload
+  466  sudo systemctl restart cloudflared
+  467  sudo systemctl status cloudflared
+  468  clear
+  469  journalctl -u cloudflared.service -n 20 -f
+  470  sudo nano /etc/systemd/system/cloudflared.service
+  471  sudo systemctl daemon-reload
+  472  sudo systemctl restart cloudflared
+  473  journalctl -u cloudflared.service -n 20 -f
+  474  sudo zerotier-cli listnetworks
+  475  clear
+  476  cd /home/kodifly/EMSD-Signboard/deployment/initial/
+  477  sudo bash install_packages.sh 
+  478  sudo bash setup_postgresql.sh 
+  479  sudo bash setup_django_app.sh 
+  480  clear
+  481  python manage.py createsuperuser --settings=config.settings.prodcution
+  482  python manage.py createsuperuser --settings=config.settings.production
+  483  source venv/bin/ac
+  484  sudo bash setup_django_app.sh 
+  485  clear
+  486  sudo bash setup_logging.sh 
+  487  sudo bash configure_services.sh 
+  488  sudo bash setup_nginx
+  489  sudo bash setup_nginx.sh
+  490  cd ..
+  491  cd ~/EMSD-Signboard/
+  492  clear
+  493  cd backend/
+  494  bash restart.sh
+  495  clear
+  496  bash restart.sh
+  497  sudo ufw status
+  498  sudo fail2ban-client status sshd
+  499  sudo zerotier-cli listnetworks
+  500  sudo systemctl restart zerotier-one.service 
+  501  sudo netbird status
+  502  sudo systemctl status zerotier-one.service 
+  503  bash restart.sh
+  504  bash restart_frontend.sh 
+  505  pm2 status
+  506  sudo pm2 status
+  507  sudo pm2 list
+  508  sudo systemctl status pm2-kodifly.service 
+  509  pm2 list
+  510  npm install pm2 -g
+  511  clear
+  512  bash restart_frontend.sh 
+  513  ls /home/kodifly/.cloudflared
+  514  ls /home/kodifly/cloudflared/config.yml
+  515  cd backend/
+  516  clear
+  517  source venv/bin/activate
+  518  sudo zerotier-cli listnetworks
+  519  cd frontend/
+  520  bash deploy_frontend.sh 
+  521  clear
+  522  cd ../backend/
+  523  cd ../frontend/
+  524  bash restart_frontend.sh 
+  525  bash deploy_frontend.sh 
+  526  sudo systemctl status pm2-kodifly.service 
+  527  sudo systemctl enable pm2-kodifly.service 
+  528  sudo systemctl restart pm2-kodifly.service 
+  529  sudo nano /etc/systemd/system/pm2-kodifly.service 
+  530  journalctl -u pm2-kodifly.service -n 10
+  531  sudo nano /etc/systemd/system/pm2-kodifly.service 
+  532  sudo systemctl daemon-reload
+  533  sudo nano /etc/systemd/system/pm2-kodifly.service 
+  534  sudo systemctl restart pm2-kodifly.service 
+  535  sudo cat /etc/systemd/system/pm2-kodifly.service
+  536  sudo nano /etc/systemd/system/pm2-kodifly.service 
+  537  sudo systemctl daemon-reload
+  538  sudo systemctl restart pm2-kodifly.service 
+  539  sudo systemctl status pm2-kodifly.service 
+  540  clear
+  541  sudo systemctl restart pm2-kodifly.service 
+  542  clear
+  543  sudo systemctl status pm2-kodifly.service 
+  544  pm2 list
+  545  clear
+  546  ls
+  547  rostopic list
+  548  pm2 list
+  549  clear
+  550  cd backend/
+  551  bash restart_frontend.sh 
+  552  nmap localhost 
+  553  ifconfig
+  554  sudo zerotier-cli listnetworks
+  555  clear
+  556  sudo zerotier-cli listnetworks
+  557  pm2 list
+  558  pm2 stop frontend
+  559  pm2 remove frontend
+  560  pm2 delege frontend
+  561  pm2 --help
+  562  clear
+  563  pm2 --help
+  564  pm2 delete frontend
+  565  bash restart_frontend.sh 
+  566  sudo reboot
+  567  sudo pip3 install websocket-client
+  568  sudo apt updatesudo systemctl daemon-reload
+  569  sudo systemctl daemon-reload
+  570  sudo systemctl enable imu_gnss_publisher.service
+  571  sudo systemctl start  imu_gnss_publisher.service
+  572  sudo systemctl status imu_gnss_publisher.service
+  573  journalctl -u imu_gnss_publisher.service -f
+  574  sudo apt install python3-websocket-client
+  575  pip install --users websocket-client
+  576  pip install --user websocket-client
+  577  pip install --users websocket-clientsudo systemctl daemon-reload
+  578  sudo systemctl daemon-reload
+  579  sudo systemctl enable imu_gnss_publisher.service
+  580  sudo systemctl start  imu_gnss_publisher.service
+  581  sudo systemctl status imu_gnss_publisher.service
+  582  journalctl -u imu_gnss_publisher.service -f
+  583  sudo systemctl restart  imu_gnss_publisher.service
+  584  sudo systemctl restart  equipment_status.service 
+  585  sudo systemctl restart  imu_gnss_publisher.service
+  586  journalctl -u imu_gnss_publisher.service -f
+  587  rostopic list
+  588  cd isds_ws/src/
+  589  ./run_sensors 
+  590  source ~/.bashrc
+  591  ./run_sensors 
+  592  ./check_timestamp
+  593  ./run_sensors 
+  594  ./check_timestamp
+  595  ifconfig
+  596  cd src/gps_rtk/
+  597  ls
+  598  cd src
+  599  ls
+  600  ./enable_nmea.sh 
+  601  sudo apt install -y ubxtool
+  602  sudo apt install -y gpsd gpsd-clients
+  603  sudo apt install -y ubxtool
+  604  ./enable_nmea.sh 
+  605  ubxtool -z CFG-NMEA-OUT_INVTIME,1,5 -z CFG-NMEA-OUT_INVDATE,1,5 -z CFG-MSGOUT-UBX_TIM_TP_UART1,1,5 -z CFG-NMEA-MAINTALKERID,1 -f /dev/tty_f9p -s 38400 -P 27
+  606  cd ../..
+  607  cd ..
+  608  catkin_make
+  609  code ~/.bashrc
+  610  ls
+  611  cd EMSD-Signboard/
+  612  ls
+  613  cat /etc/issue
+  614  ls
+  615  rostopic list
+  616  ssh -L 8002:localhost:8002  kodifly@10.144.118.106
+  617  sudo docker run -it --rm --net=host --name ros1   osrf/ros:noetic-desktop-full
+  618  ls
+  619  cd ..
+  620  ls
+  621  cd ..
+  622  cd ~
+  623  ls
+  624  docker ps -a
+  625  ls
+  626  cd Do
+  627  cd Downloads/
+  628  ls
+  629  cd ..
+  630  cd isds_ws/
+  631  ls
+  632  cd ..
+  633  cd EMSD-Signboard/
+  634  cd backend/
+  635  cd ..
+  636  cd..
+  637  cd ..
+  638  systemctl restart  imu_gnss_publisher.service
+  639  sudo zerotier-cli listnetworks
+  640  cd backend
+  641  bash restart_frontend.sh 
+  642  docker -v
+  643  sudo bash node_exporter.sh 
+  644  nmap 100.109.240.105 -p 3100
+  645  nmap 100.109.240.105 -p 3100 -Pn
+  646  clear
+  647  nmap localhost
+  648  nmap 100.109.240.105 -p 3100
+  649  nmap 100.109.240.105 -p 3100 -Pn
+  650  clear
+  651  cd backend/
+  652  bash restart.sh 
+  653  git pull
+  654  bash deploy.sh 
+  655  sudo systemctl status gunicorn.service 
+  656  sudo systemctl status zerotier-one.service 
+  657  clear
+  658  sudo netbird status
+  659  cd backend/
+  660  bash restart.sh
+  661  clear
+  662  source venv/bin/activate
+  663  python manage.py create_user --settings=config.settings.production
+  664  zerotier-one --help
+  665  zerotier-one --v
+  666  zerotier-one -v
+  667  clear
+  668  python manage.py loaddata ./*/fixtures/*.json --settings=config.settings.production
+  669  cd ..
+  670  sudo bash node_exporter.sh 
+  671  usermod -aG docker $USER
+  672  clear
+  673  bash node_exporter.sh 
+  674  cd isds_ws/src/
+  675  ./run_sensors 
+  676  ifconfig
+  677  unzip rtsp_image_transport.zip 
+  678  cd ..
+  679  catkin_Make
+  680  catkin_make
+  681  cd
+  682  mkdir debs
+  683  cd debs/
+  684  wget http://archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/liblivemedia-dev_2020.01.19-1build1_amd64.deb
+  685  wget http://archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/liblivemedia77_2020.01.19-1build1_amd64.deb
+  686  wget http://archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/libbasicusageenvironment1_2020.01.19-1build1_amd64.deb
+  687  wget http://archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/libgroupsock8_2020.01.19-1build1_amd64.deb
+  688  wget http://archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/libusageenvironment3_2020.01.19-1build1_amd64.deb
+  689  sudo apt install ./*.deb
+  690  cd
+  691  cd isds_ws/
+  692  catkin_make
+  693  ./src/run_sensors 
+  694  rostopic echo /camera1/rtsp/rtsp
+  695  rostopic list
+  696  catkin_make
+  697  source devel/setup.bash
+  698  roslaunch gps_rtk rtk.launch 
+  699  catkin_make
+  700  cd ../..
+  701  catkin_make
+  702  exit
+  703  rqt
+  704  sudo systemctl restart equipment_status.service 
+  705  ./src/check_timestamp
+  706  netbird status
+  707  chmod +x cmake-4.1.0-rc1-linux-x86_64.sh 
+  708  ./cmake-4.1.0-rc1-linux-x86_64.sh 
+  709  cd  cmake-4.1.0-rc1-linux-x86_64/
+  710  ls
+  711  sudo apt-get install ca-certificates gpg wget
+  712  wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /usr/share/keyrings/kitware-archive-keyring.gpg >/dev/null
+  713  echo 'deb [signed-by=/usr/share/keyrings/kitware-archive-keyring.gpg] https://apt.kitware.com/ubuntu/ focal main' | sudo tee /etc/apt/sources.list.d/kitware.list >/dev/null
+  714  sudo apt update
+  715  sudo apt install --upgrade cmake
+  716  cd 
+  717  cd glog/
+  718  cd build/
+  719  cmake ..
+  720  sudo make install -j8
+  721  sudo apt-get install libyaml-cpp-dev
+  722  cd 
+  723  cd isds_ws/src/
+  724  git clone https://github.com/leo6862/ins_eskf_kitti.git
+  725  cd ..
+  726  catkin_make
+  727  rm -rf build/ devel/
+  728  catkin_make
+  729  catkin_make -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+  730  catkin_make -DCMAKE_POLICY_VERSION_MINIMUM==3.5
+  731  catkin_make -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+  732  catkin_make -DCMAKE_POLICY_VERSION_MINIMUM 3.5
+  733  catkin_make
+  734  sudo ldconfig
+  735  sudo apt install libgeographic-dev
+  736  catkin_make
+  737  sudo apt-get install cmake
+  738  sudo apt install --upgrade gcc build-essential
+  739  catkin_make
+  740  cd src/
+  741  ls
+  742  rm -rf ins_eskf_kitti/
+  743  catkin_make
+  744  cd ..\
+  745  cd ..
+  746  catkin_make
+  747  history > data.txt

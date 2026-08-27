@@ -1,0 +1,2733 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/kodifly/isds_ws/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: 0
+-- catkin 0.8.12
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 11 packages in topological order:
+-- ~~  - opencv_tests
+-- ~~  - vision_opencv (metapackage)
+-- ~~  - gps_rtk
+-- ~~  - cv_bridge
+-- ~~  - distance_trigger
+-- ~~  - image_geometry
+-- ~~  - mvs_ros_driver
+-- ~~  - rtsp_image_transport
+-- ~~  - livox_ros_driver
+-- ~~  - ouster_ros
+-- ~~  - sensor_record
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'opencv_tests'
+-- ==> add_subdirectory(vision_opencv/opencv_tests)
+-- +++ processing catkin metapackage: 'vision_opencv'
+-- ==> add_subdirectory(vision_opencv/vision_opencv)
+-- +++ processing catkin package: 'gps_rtk'
+-- ==> add_subdirectory(gps_rtk)
+-- Installing devel-space wrapper /home/kodifly/isds_ws/src/gps_rtk/src/enable_tp5.py to /home/kodifly/isds_ws/devel/lib/gps_rtk
+-- Installing devel-space wrapper /home/kodifly/isds_ws/src/gps_rtk/src/gnss_processor.py to /home/kodifly/isds_ws/devel/lib/gps_rtk
+-- Installing devel-space wrapper /home/kodifly/isds_ws/src/gps_rtk/src/gnss_processor_old.py to /home/kodifly/isds_ws/devel/lib/gps_rtk
+-- +++ processing catkin package: 'cv_bridge'
+-- ==> add_subdirectory(vision_opencv/cv_bridge)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: python 
+-- Found OpenCV: /usr/local (found version "4.11.0") found components: opencv_core opencv_imgproc opencv_imgcodecs 
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.8") 
+-- +++ processing catkin package: 'distance_trigger'
+-- ==> add_subdirectory(distance_trigger)
+-- Installing devel-space wrapper /home/kodifly/isds_ws/src/distance_trigger/src/trigger_node.py to /home/kodifly/isds_ws/devel/lib/distance_trigger
+-- +++ processing catkin package: 'image_geometry'
+-- ==> add_subdirectory(vision_opencv/image_geometry)
+-- Found OpenCV: /usr/local (found version "4.11.0") 
+-- +++ processing catkin package: 'mvs_ros_driver'
+-- ==> add_subdirectory(mvs_ros_driver)
+-- Running on x86_64
+-- Found OpenCV: /usr/local (found version "4.11.0") found components: core imgproc dnn cudafeatures2d imgcodecs 
+-- OpenCV version: 4.11.0
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_APPS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IN_HAND_SCANNER
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_POINT_CLOUD_EDITOR
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+-- Found CUDA: /usr/local/cuda (found version "12.1") 
+-- Found NVJPEG library: /usr/local/cuda/lib64/libnvjpeg.so
+-- Found libgpujpeg headers: /usr/local/include
+-- Found libgpujpeg library: /usr/local/lib/libgpujpeg.so
+-- JETSON_UTILS_INCLUDE_DIRS = 
+-- +++ processing catkin package: 'rtsp_image_transport'
+-- ==> add_subdirectory(rtsp_image_transport)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- +++ processing catkin package: 'livox_ros_driver'
+-- ==> add_subdirectory(livox_ros_driver/livox_ros_driver)
+-- livox_ros_driver version: 2.6.0
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.54") found components: system thread chrono 
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_APPS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IN_HAND_SCANNER
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_POINT_CLOUD_EDITOR
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- livox_ros_driver: 2 messages, 0 services
+/usr/include/apr-1.0
+apr-1
+Coudn't find livox sdk library!
+Download Livox-SDK from github and build&install it please!
+Download Livox-SDK from github and build&install it please!
+Download Livox-SDK from github and build&install it please!
+git clone Livox-SDK from github temporarily, only for ROS distro jenkins build!
+Try to pull the livox sdk source code from github
+Cloning into '/home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/Livox-SDK'...
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- main project dir: /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/Livox-SDK
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/Livox-SDK/build
+
+[  2%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/third_party/FastCRC/FastCRCsw.cpp.o
+[  4%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/io_loop.cpp.o
+[  6%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/thread_base.cpp.o
+[  8%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/io_thread.cpp.o
+[ 10%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/network/unix/network_util.cpp.o
+[ 12%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/logging.cpp.o
+[ 14%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/livox_sdk.cpp.o
+[ 16%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/device_discovery.cpp.o
+[ 18%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/device_manager.cpp.o
+[ 20%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/comm/comm_port.cpp.o
+[ 22%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/comm/sdk_protocol.cpp.o
+[ 25%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/data_handler.cpp.o
+[ 27%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/hub_data_handler.cpp.o
+[ 29%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/lidar_data_handler.cpp.o
+[ 31%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_handler.cpp.o
+[ 33%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_channel.cpp.o
+[ 35%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/hub_command_handler.cpp.o
+[ 37%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/lidar_command_handler.cpp.o
+[ 39%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_impl.cpp.o
+[ 41%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_base.cpp.o
+[ 43%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_epoll.cpp.o
+[ 45%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_poll.cpp.o
+[ 47%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_select.cpp.o
+[ 50%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_kqueue.cpp.o
+[ 52%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/wake_up/unix/wake_up_pipe.cpp.o
+[ 54%] Linking CXX static library liblivox_sdk_static.a
+[ 54%] Built target livox_sdk_static
+[ 56%] Building C object sample/hub/CMakeFiles/hub_sample.dir/main.c.o
+[ 58%] Linking CXX executable hub_sample
+[ 58%] Built target hub_sample
+[ 60%] Building C object sample/lidar/CMakeFiles/lidar_sample.dir/main.c.o
+[ 62%] Linking CXX executable lidar_sample
+[ 62%] Built target lidar_sample
+[ 64%] Building CXX object sample/hub_lvx_file/CMakeFiles/hub_lvx_sample.dir/main.cpp.o
+[ 66%] Building CXX object sample/hub_lvx_file/CMakeFiles/hub_lvx_sample.dir/lvx_file.cpp.o
+[ 68%] Linking CXX executable hub_lvx_sample
+[ 68%] Built target hub_lvx_sample
+[ 70%] Building CXX object sample/lidar_lvx_file/CMakeFiles/lidar_lvx_sample.dir/main.cpp.o
+[ 72%] Building CXX object sample/lidar_lvx_file/CMakeFiles/lidar_lvx_sample.dir/lvx_file.cpp.o
+[ 75%] Linking CXX executable lidar_lvx_sample
+[ 75%] Built target lidar_lvx_sample
+[ 77%] Building CXX object sample_cc/hub/CMakeFiles/hub_sample_cc.dir/lds_hub.cpp.o
+[ 79%] Building CXX object sample_cc/hub/CMakeFiles/hub_sample_cc.dir/main.cpp.o
+[ 81%] Linking CXX executable hub_sample_cc
+[ 81%] Built target hub_sample_cc
+[ 83%] Building CXX object sample_cc/lidar/CMakeFiles/lidar_sample_cc.dir/main.cpp.o
+[ 85%] Building CXX object sample_cc/lidar/CMakeFiles/lidar_sample_cc.dir/lds_lidar.cpp.o
+[ 87%] Linking CXX executable lidar_sample_cc
+[ 87%] Built target lidar_sample_cc
+[ 89%] Building CXX object sample_cc/trouble_shooting/CMakeFiles/trouble_shooting.dir/main.cpp.o
+[ 91%] Linking CXX executable trouble_shooting
+[ 91%] Built target trouble_shooting
+[ 93%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/main.cpp.o
+[ 95%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/lds_lidar.cpp.o
+[ 97%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/synchro.cpp.o
+[100%] Linking CXX executable lidar_utc_sync
+[100%] Built target lidar_utc_sync
+
+-- +++ processing catkin package: 'ouster_ros'
+-- ==> add_subdirectory(ouster-ros)
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  ouster-ros/CMakeLists.txt:11 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found CURL: /usr/include/x86_64-linux-gnu (found version "7.68.0") 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- ouster_ros: 2 messages, 3 services
+-- +++ processing catkin package: 'sensor_record'
+-- ==> add_subdirectory(sensor_record/sensor_record)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Found CUDA: /usr/local/cuda (found suitable exact version "12.1") 
+-- Found OpenCV: /usr/local (found version "4.11.0") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem system 
+-- Using the multi-header code from /home/kodifly/isds_ws/build/_deps/nlohmann_json-src/include/
+CMake Warning at /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'nlohmann_json' but neither
+  'nlohmann_json_INCLUDE_DIRS' nor 'nlohmann_json_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  sensor_record/sensor_record/CMakeLists.txt:36 (catkin_package)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kodifly/isds_ws/build
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+Consolidate compiler generated dependencies of target tensorrt_cpp_api
+[  1%] Linking CXX shared library /home/kodifly/isds_ws/devel/lib/libtensorrt_cpp_api.so
+[  2%] Built target tensorrt_cpp_api
+Consolidate compiler generated dependencies of target rtsp_image_transport
+[ 12%] Built target rtsp_image_transport
+[ 14%] Built target rtsp_image_transport_gencfg
+[ 14%] Built target _livox_ros_driver_generate_messages_check_deps_CustomPoint
+[ 14%] Built target _livox_ros_driver_generate_messages_check_deps_CustomMsg
+Generating build info header
+[ 14%] Built target ouster_generate_header
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_GetConfig
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_GetMetadata
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_SetConfig
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_Telemetry
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_PacketMsg
+Consolidate compiler generated dependencies of target ouster_client
+[ 27%] Built target ouster_client
+[ 27%] Built target tf2_msgs_generate_messages_lisp
+[ 27%] Built target roscpp_generate_messages_py
+[ 27%] Built target rosgraph_msgs_generate_messages_eus
+[ 27%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 27%] Built target roscpp_generate_messages_cpp
+[ 27%] Built target rosgraph_msgs_generate_messages_cpp
+[ 27%] Built target roscpp_generate_messages_eus
+[ 27%] Built target rosgraph_msgs_generate_messages_py
+[ 27%] Built target rosgraph_msgs_generate_messages_lisp
+[ 27%] Built target roscpp_generate_messages_nodejs
+[ 27%] Built target roscpp_generate_messages_lisp
+[ 27%] Built target std_srvs_generate_messages_lisp
+[ 27%] Built target std_srvs_generate_messages_eus
+[ 27%] Built target std_srvs_generate_messages_py
+[ 27%] Built target std_srvs_generate_messages_nodejs
+[ 27%] Built target std_srvs_generate_messages_cpp
+[ 27%] Built target topic_tools_generate_messages_nodejs
+[ 27%] Built target topic_tools_generate_messages_eus
+[ 27%] Built target topic_tools_generate_messages_lisp
+[ 27%] Built target topic_tools_generate_messages_cpp
+[ 27%] Built target topic_tools_generate_messages_py
+[ 27%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 27%] Built target dynamic_reconfigure_generate_messages_eus
+[ 27%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 27%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 27%] Built target dynamic_reconfigure_generate_messages_py
+[ 27%] Built target dynamic_reconfigure_gencfg
+[ 27%] Built target tf_generate_messages_lisp
+[ 27%] Built target tf_generate_messages_eus
+[ 27%] Built target tf_generate_messages_cpp
+[ 27%] Built target actionlib_generate_messages_eus
+[ 27%] Built target pcl_msgs_generate_messages_py
+[ 27%] Built target pcl_msgs_generate_messages_lisp
+[ 27%] Built target tf2_msgs_generate_messages_cpp
+[ 27%] Built target pcl_msgs_generate_messages_eus
+[ 27%] Built target tf_generate_messages_py
+[ 27%] Built target pcl_msgs_generate_messages_cpp
+[ 27%] Built target bond_generate_messages_eus
+[ 27%] Built target bond_generate_messages_lisp
+[ 27%] Built target nodelet_topic_tools_gencfg
+[ 27%] Built target pcl_msgs_generate_messages_nodejs
+[ 27%] Built target tf_generate_messages_nodejs
+[ 27%] Built target bond_generate_messages_py
+[ 27%] Built target pcl_ros_gencfg
+[ 27%] Built target nodelet_generate_messages_nodejs
+[ 27%] Built target nodelet_generate_messages_cpp
+[ 27%] Built target tf2_msgs_generate_messages_eus
+[ 27%] Built target nodelet_generate_messages_py
+[ 27%] Built target bond_generate_messages_cpp
+[ 27%] Built target nodelet_generate_messages_lisp
+[ 27%] Built target tf2_msgs_generate_messages_nodejs
+[ 27%] Built target nodelet_generate_messages_eus
+[ 27%] Built target bond_generate_messages_nodejs
+[ 27%] Built target actionlib_generate_messages_cpp
+[ 27%] Built target tf2_msgs_generate_messages_py
+[ 27%] Built target actionlib_msgs_generate_messages_nodejs
+[ 27%] Built target actionlib_msgs_generate_messages_cpp
+[ 27%] Built target actionlib_generate_messages_nodejs
+[ 27%] Built target actionlib_generate_messages_py
+[ 27%] Built target actionlib_generate_messages_lisp
+[ 27%] Built target actionlib_msgs_generate_messages_eus
+[ 27%] Built target actionlib_msgs_generate_messages_lisp
+[ 27%] Built target actionlib_msgs_generate_messages_py
+Consolidate compiler generated dependencies of target YoloV8_TRT
+[ 28%] Linking CXX shared library /home/kodifly/isds_ws/devel/lib/libYoloV8_TRT.so
+[ 28%] Built target YoloV8_TRT
+[ 28%] Built target sensor_msgs_generate_messages_nodejs
+[ 28%] Built target std_msgs_generate_messages_lisp
+[ 28%] Built target std_msgs_generate_messages_eus
+[ 32%] Built target ouster_ros_generate_messages_lisp
+[ 37%] Built target ouster_ros_generate_messages_eus
+[ 40%] Built target livox_ros_driver_generate_messages_eus
+[ 42%] Built target livox_ros_driver_generate_messages_lisp
+[ 42%] Built target std_msgs_generate_messages_nodejs
+[ 42%] Built target std_msgs_generate_messages_cpp
+[ 47%] Built target ouster_ros_generate_messages_nodejs
+[ 51%] Built target ouster_ros_generate_messages_cpp
+[ 52%] Built target livox_ros_driver_generate_messages_cpp
+[ 52%] Built target ouster_ros_gencpp
+Consolidate compiler generated dependencies of target livox_ros_driver_node
+[ 53%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lvx_file.cpp.o
+[ 53%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_lidar.cpp.o
+In file included from /usr/include/string.h:495,
+                 from /usr/include/c++/9/cstring:42,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/rapidjson.h:45,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/stream.h:19,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/memorystream.h:22,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/encodedstream.h:22,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/document.h:26,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/livox_ros_driver/lds_lidar.h:36,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:25:
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘int livox_ros::LdsLidar::ParseTimesyncConfig(rapidjson::Document&)’ at /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:605:17:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ specified bound 256 equals destination size [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘int livox_ros::LdsLidar::ParseConfigFile(const char*)’ at /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:668:25:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ specified bound 16 equals destination size [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 54%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_hub.cpp.o
+[ 55%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lddc.cpp.o
+[ 56%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/livox_ros_driver.cpp.o
+[ 57%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/timesync/timesync.cpp.o
+[ 58%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/timesync/user_uart/user_uart.cpp.o
+[ 59%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/common/comm/comm_protocol.cpp.o
+[ 59%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/common/comm/sdk_protocol.cpp.o
+[ 60%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/common/comm/gps_protocol.cpp.o
+[ 61%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_lvx.cpp.o
+[ 62%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds.cpp.o
+[ 63%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/ldq.cpp.o
+[ 64%] Linking CXX executable /home/kodifly/isds_ws/devel/lib/livox_ros_driver/livox_ros_driver_node
+[ 64%] Built target livox_ros_driver_node
+Consolidate compiler generated dependencies of target ouster_ros
+[ 67%] Built target ouster_ros
+[ 68%] Built target livox_ros_driver_generate_messages_nodejs
+Consolidate compiler generated dependencies of target ouster_ros_nodelets
+[ 74%] Built target ouster_ros_nodelets
+[ 74%] Built target std_msgs_generate_messages_py
+Consolidate compiler generated dependencies of target cv_bridge
+[ 77%] Built target cv_bridge
+[ 83%] Built target ouster_ros_generate_messages_py
+Consolidate compiler generated dependencies of target sensor_recorder_node
+[ 84%] Linking CXX executable /home/kodifly/isds_ws/devel/lib/sensor_record/sensor_recorder_node
+[ 85%] Built target sensor_recorder_node
+[ 85%] Built target ouster_ros_generate_messages
+Consolidate compiler generated dependencies of target rtsp_camera_proxy
+[ 86%] Building CXX object rtsp_image_transport/CMakeFiles/rtsp_camera_proxy.dir/src/rtsp_camera_proxy.cpp.o
+[ 87%] Linking CXX executable /home/kodifly/isds_ws/devel/lib/rtsp_image_transport/rtsp_camera_proxy
+[ 88%] Built target rtsp_camera_proxy
+Consolidate compiler generated dependencies of target publish_rtsp_stream
+[ 89%] Building CXX object rtsp_image_transport/CMakeFiles/publish_rtsp_stream.dir/src/publish_rtsp_stream.cpp.o
+[ 89%] Linking CXX executable /home/kodifly/isds_ws/devel/lib/rtsp_image_transport/publish_rtsp_stream
+[ 90%] Built target publish_rtsp_stream
+Consolidate compiler generated dependencies of target grabImgWithTrigger
+[ 91%] Building CXX object mvs_ros_driver/CMakeFiles/grabImgWithTrigger.dir/src/grab_trigger.cpp.o
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/include/yolov8.h:2,
+                 from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:28:
+/home/kodifly/isds_ws/src/mvs_ros_driver/libs/tensorrt-cpp-api/src/engine.h: In member function ‘bool Engine<T>::build(std::string, const std::array<float, 3>&, const std::array<float, 3>&, bool)’:
+/home/kodifly/isds_ws/src/mvs_ros_driver/libs/tensorrt-cpp-api/src/engine.h:406:95: warning: ‘nvinfer1::NetworkDefinitionCreationFlag::kEXPLICIT_BATCH’ is deprecated [-Wdeprecated-declarations]
+  406 |     auto explicitBatch = 1U << static_cast<uint32_t>(nvinfer1::NetworkDefinitionCreationFlag::kEXPLICIT_BATCH);
+      |                                                                                               ^~~~~~~~~~~~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:26:
+/usr/include/x86_64-linux-gnu/NvInfer.h:10473:5: note: declared here
+10473 |     kEXPLICIT_BATCH TRT_DEPRECATED_ENUM = 0,
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/include/yolov8.h:2,
+                 from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:28:
+/home/kodifly/isds_ws/src/mvs_ros_driver/libs/tensorrt-cpp-api/src/engine.h:406:95: warning: ‘nvinfer1::NetworkDefinitionCreationFlag::kEXPLICIT_BATCH’ is deprecated [-Wdeprecated-declarations]
+  406 |     auto explicitBatch = 1U << static_cast<uint32_t>(nvinfer1::NetworkDefinitionCreationFlag::kEXPLICIT_BATCH);
+      |                                                                                               ^~~~~~~~~~~~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:26:
+/usr/include/x86_64-linux-gnu/NvInfer.h:10473:5: note: declared here
+10473 |     kEXPLICIT_BATCH TRT_DEPRECATED_ENUM = 0,
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/include/yolov8.h:2,
+                 from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:28:
+/home/kodifly/isds_ws/src/mvs_ros_driver/libs/tensorrt-cpp-api/src/engine.h:501:48: warning: ‘nvinfer1::BuilderFlag::kFP16’ is deprecated [-Wdeprecated-declarations]
+  501 |         config->setFlag(nvinfer1::BuilderFlag::kFP16);
+      |                                                ^~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:26:
+/usr/include/x86_64-linux-gnu/NvInfer.h:8848:5: note: declared here
+ 8848 |     kFP16 TRT_DEPRECATED_ENUM = 0,
+      |     ^~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/include/yolov8.h:2,
+                 from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:28:
+/home/kodifly/isds_ws/src/mvs_ros_driver/libs/tensorrt-cpp-api/src/engine.h:501:48: warning: ‘nvinfer1::BuilderFlag::kFP16’ is deprecated [-Wdeprecated-declarations]
+  501 |         config->setFlag(nvinfer1::BuilderFlag::kFP16);
+      |                                                ^~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:26:
+/usr/include/x86_64-linux-gnu/NvInfer.h:8848:5: note: declared here
+ 8848 |     kFP16 TRT_DEPRECATED_ENUM = 0,
+      |     ^~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/include/yolov8.h:2,
+                 from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:28:
+/home/kodifly/isds_ws/src/mvs_ros_driver/libs/tensorrt-cpp-api/src/engine.h:519:49: warning: ‘nvinfer1::BuilderFlag::kINT8’ is deprecated [-Wdeprecated-declarations]
+  519 |         config->setFlag((nvinfer1::BuilderFlag::kINT8));
+      |                                                 ^~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:26:
+/usr/include/x86_64-linux-gnu/NvInfer.h:8852:5: note: declared here
+ 8852 |     kINT8 TRT_DEPRECATED_ENUM = 1,
+      |     ^~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/include/yolov8.h:2,
+                 from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:28:
+/home/kodifly/isds_ws/src/mvs_ros_driver/libs/tensorrt-cpp-api/src/engine.h:519:49: warning: ‘nvinfer1::BuilderFlag::kINT8’ is deprecated [-Wdeprecated-declarations]
+  519 |         config->setFlag((nvinfer1::BuilderFlag::kINT8));
+      |                                                 ^~~~~
+In file included from /home/kodifly/isds_ws/src/mvs_ros_driver/src/grab_trigger.cpp:26:
+/usr/include/x86_64-linux-gnu/NvInfer.h:8852:5: note: declared here
+ 8852 |     kINT8 TRT_DEPRECATED_ENUM = 1,
+      |     ^~~~~
+[ 92%] Linking CXX executable /home/kodifly/isds_ws/devel/lib/mvs_ros_driver/grabImgWithTrigger
+[ 92%] Built target grabImgWithTrigger
+Consolidate compiler generated dependencies of target cv_bridge_boost
+[ 94%] Built target cv_bridge_boost
+[ 97%] Built target livox_ros_driver_generate_messages_py
+Consolidate compiler generated dependencies of target image_geometry
+[100%] Built target image_geometry
+[100%] Built target livox_ros_driver_generate_messages
+Base path: /home/kodifly/isds_ws
+Source space: /home/kodifly/isds_ws/src
+Build space: /home/kodifly/isds_ws/build
+Devel space: /home/kodifly/isds_ws/devel
+Install space: /home/kodifly/isds_ws/install
+####
+#### Running command: "cmake /home/kodifly/isds_ws/src -DCMAKE_BUILD_TYPE=Release -DCATKIN_ENABLE_TESTING=0 -DCATKIN_DEVEL_PREFIX=/home/kodifly/isds_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kodifly/isds_ws/install -G Unix Makefiles" in "/home/kodifly/isds_ws/build"
+####
+####
+#### Running command: "make -j8 -l8" in "/home/kodifly/isds_ws/build"
+####
+-- Using CATKIN_DEVEL_PREFIX: /home/kodifly/isds_ws/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: 0
+-- catkin 0.8.12
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 11 packages in topological order:
+-- ~~  - opencv_tests
+-- ~~  - vision_opencv (metapackage)
+-- ~~  - gps_rtk
+-- ~~  - cv_bridge
+-- ~~  - distance_trigger
+-- ~~  - image_geometry
+-- ~~  - mvs_ros_driver
+-- ~~  - rtsp_image_transport
+-- ~~  - livox_ros_driver
+-- ~~  - ouster_ros
+-- ~~  - sensor_record
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'opencv_tests'
+-- ==> add_subdirectory(vision_opencv/opencv_tests)
+-- +++ processing catkin metapackage: 'vision_opencv'
+-- ==> add_subdirectory(vision_opencv/vision_opencv)
+-- +++ processing catkin package: 'gps_rtk'
+-- ==> add_subdirectory(gps_rtk)
+-- Installing devel-space wrapper /home/kodifly/isds_ws/src/gps_rtk/src/enable_tp5.py to /home/kodifly/isds_ws/devel/lib/gps_rtk
+-- Installing devel-space wrapper /home/kodifly/isds_ws/src/gps_rtk/src/gnss_processor.py to /home/kodifly/isds_ws/devel/lib/gps_rtk
+-- Installing devel-space wrapper /home/kodifly/isds_ws/src/gps_rtk/src/gnss_processor_old.py to /home/kodifly/isds_ws/devel/lib/gps_rtk
+-- +++ processing catkin package: 'cv_bridge'
+-- ==> add_subdirectory(vision_opencv/cv_bridge)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: python 
+-- Found OpenCV: /usr/local (found version "4.11.0") found components: opencv_core opencv_imgproc opencv_imgcodecs 
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.8") 
+-- +++ processing catkin package: 'distance_trigger'
+-- ==> add_subdirectory(distance_trigger)
+-- Installing devel-space wrapper /home/kodifly/isds_ws/src/distance_trigger/src/trigger_node.py to /home/kodifly/isds_ws/devel/lib/distance_trigger
+-- +++ processing catkin package: 'image_geometry'
+-- ==> add_subdirectory(vision_opencv/image_geometry)
+-- Found OpenCV: /usr/local (found version "4.11.0") 
+-- +++ processing catkin package: 'mvs_ros_driver'
+-- ==> add_subdirectory(mvs_ros_driver)
+-- Running on x86_64
+-- Found OpenCV: /usr/local (found version "4.11.0") found components: core imgproc dnn cudafeatures2d imgcodecs 
+-- OpenCV version: 4.11.0
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_APPS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IN_HAND_SCANNER
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_POINT_CLOUD_EDITOR
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  mvs_ros_driver/CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+-- Found CUDA: /usr/local/cuda (found version "12.1") 
+-- Found NVJPEG library: /usr/local/cuda/lib64/libnvjpeg.so
+-- Found libgpujpeg headers: /usr/local/include
+-- Found libgpujpeg library: /usr/local/lib/libgpujpeg.so
+-- JETSON_UTILS_INCLUDE_DIRS = 
+-- +++ processing catkin package: 'rtsp_image_transport'
+-- ==> add_subdirectory(rtsp_image_transport)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- +++ processing catkin package: 'livox_ros_driver'
+-- ==> add_subdirectory(livox_ros_driver/livox_ros_driver)
+-- livox_ros_driver version: 2.6.0
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.54") found components: system thread chrono 
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI2).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (USB_10)
+  does not match the name of the calling package (OpenNI).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_2D
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IO
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_ML
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_STEREO
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_APPS
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_IN_HAND_SCANNER
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_POINT_CLOUD_EDITOR
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  livox_ros_driver/livox_ros_driver/CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- livox_ros_driver: 2 messages, 0 services
+/usr/include/apr-1.0
+apr-1
+Coudn't find livox sdk library!
+Download Livox-SDK from github and build&install it please!
+Download Livox-SDK from github and build&install it please!
+Download Livox-SDK from github and build&install it please!
+git clone Livox-SDK from github temporarily, only for ROS distro jenkins build!
+Try to pull the livox sdk source code from github
+Cloning into '/home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/Livox-SDK'...
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- main project dir: /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/Livox-SDK
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/Livox-SDK/build
+
+[  2%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/third_party/FastCRC/FastCRCsw.cpp.o
+[  4%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/io_loop.cpp.o
+[  6%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/thread_base.cpp.o
+[  8%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/io_thread.cpp.o
+[ 10%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/network/unix/network_util.cpp.o
+[ 12%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/logging.cpp.o
+[ 14%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/livox_sdk.cpp.o
+[ 16%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/device_discovery.cpp.o
+[ 18%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/device_manager.cpp.o
+[ 20%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/comm/comm_port.cpp.o
+[ 22%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/comm/sdk_protocol.cpp.o
+[ 25%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/data_handler.cpp.o
+[ 27%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/hub_data_handler.cpp.o
+[ 29%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/lidar_data_handler.cpp.o
+[ 31%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_handler.cpp.o
+[ 33%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_channel.cpp.o
+[ 35%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/hub_command_handler.cpp.o
+[ 37%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/lidar_command_handler.cpp.o
+[ 39%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_impl.cpp.o
+[ 41%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_base.cpp.o
+[ 43%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_epoll.cpp.o
+[ 45%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_poll.cpp.o
+[ 47%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_select.cpp.o
+[ 50%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_kqueue.cpp.o
+[ 52%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/wake_up/unix/wake_up_pipe.cpp.o
+[ 54%] Linking CXX static library liblivox_sdk_static.a
+[ 54%] Built target livox_sdk_static
+[ 56%] Building C object sample/hub/CMakeFiles/hub_sample.dir/main.c.o
+[ 58%] Linking CXX executable hub_sample
+[ 58%] Built target hub_sample
+[ 60%] Building C object sample/lidar/CMakeFiles/lidar_sample.dir/main.c.o
+[ 62%] Linking CXX executable lidar_sample
+[ 62%] Built target lidar_sample
+[ 64%] Building CXX object sample/hub_lvx_file/CMakeFiles/hub_lvx_sample.dir/main.cpp.o
+[ 66%] Building CXX object sample/hub_lvx_file/CMakeFiles/hub_lvx_sample.dir/lvx_file.cpp.o
+[ 68%] Linking CXX executable hub_lvx_sample
+[ 68%] Built target hub_lvx_sample
+[ 70%] Building CXX object sample/lidar_lvx_file/CMakeFiles/lidar_lvx_sample.dir/main.cpp.o
+[ 72%] Building CXX object sample/lidar_lvx_file/CMakeFiles/lidar_lvx_sample.dir/lvx_file.cpp.o
+[ 75%] Linking CXX executable lidar_lvx_sample
+[ 75%] Built target lidar_lvx_sample
+[ 77%] Building CXX object sample_cc/hub/CMakeFiles/hub_sample_cc.dir/lds_hub.cpp.o
+[ 79%] Building CXX object sample_cc/hub/CMakeFiles/hub_sample_cc.dir/main.cpp.o
+[ 81%] Linking CXX executable hub_sample_cc
+[ 81%] Built target hub_sample_cc
+[ 83%] Building CXX object sample_cc/lidar/CMakeFiles/lidar_sample_cc.dir/main.cpp.o
+[ 85%] Building CXX object sample_cc/lidar/CMakeFiles/lidar_sample_cc.dir/lds_lidar.cpp.o
+[ 87%] Linking CXX executable lidar_sample_cc
+[ 87%] Built target lidar_sample_cc
+[ 89%] Building CXX object sample_cc/trouble_shooting/CMakeFiles/trouble_shooting.dir/main.cpp.o
+[ 91%] Linking CXX executable trouble_shooting
+[ 91%] Built target trouble_shooting
+[ 93%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/main.cpp.o
+[ 95%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/lds_lidar.cpp.o
+[ 97%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/synchro.cpp.o
+[100%] Linking CXX executable lidar_utc_sync
+[100%] Built target lidar_utc_sync
+
+-- +++ processing catkin package: 'ouster_ros'
+-- ==> add_subdirectory(ouster-ros)
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- looking for PCL_COMMON
+CMake Warning (dev) at /opt/cmake-3.20.0/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  ouster-ros/CMakeLists.txt:11 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found CURL: /usr/include/x86_64-linux-gnu (found version "7.68.0") 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- ouster_ros: 2 messages, 3 services
+-- +++ processing catkin package: 'sensor_record'
+-- ==> add_subdirectory(sensor_record/sensor_record)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Found CUDA: /usr/local/cuda (found suitable exact version "12.1") 
+-- Found OpenCV: /usr/local (found version "4.11.0") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem system 
+-- Using the multi-header code from /home/kodifly/isds_ws/build/_deps/nlohmann_json-src/include/
+CMake Warning at /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'nlohmann_json' but neither
+  'nlohmann_json_INCLUDE_DIRS' nor 'nlohmann_json_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  sensor_record/sensor_record/CMakeLists.txt:36 (catkin_package)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kodifly/isds_ws/build
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+Consolidate compiler generated dependencies of target tensorrt_cpp_api
+[  2%] Built target tensorrt_cpp_api
+Consolidate compiler generated dependencies of target rtsp_image_transport
+[ 12%] Built target rtsp_image_transport
+[ 14%] Built target rtsp_image_transport_gencfg
+[ 14%] Built target _livox_ros_driver_generate_messages_check_deps_CustomPoint
+[ 14%] Built target _livox_ros_driver_generate_messages_check_deps_CustomMsg
+Generating build info header
+[ 14%] Built target ouster_generate_header
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_GetConfig
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_GetMetadata
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_SetConfig
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_Telemetry
+[ 14%] Built target _ouster_ros_generate_messages_check_deps_PacketMsg
+Consolidate compiler generated dependencies of target ouster_client
+[ 27%] Built target ouster_client
+[ 27%] Built target tf2_msgs_generate_messages_lisp
+[ 27%] Built target roscpp_generate_messages_py
+[ 27%] Built target rosgraph_msgs_generate_messages_eus
+[ 27%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 27%] Built target roscpp_generate_messages_cpp
+[ 27%] Built target rosgraph_msgs_generate_messages_cpp
+[ 27%] Built target roscpp_generate_messages_eus
+[ 27%] Built target rosgraph_msgs_generate_messages_py
+[ 27%] Built target rosgraph_msgs_generate_messages_lisp
+[ 27%] Built target roscpp_generate_messages_nodejs
+[ 27%] Built target roscpp_generate_messages_lisp
+[ 27%] Built target std_srvs_generate_messages_lisp
+[ 27%] Built target std_srvs_generate_messages_eus
+[ 27%] Built target std_srvs_generate_messages_py
+[ 27%] Built target std_srvs_generate_messages_nodejs
+[ 27%] Built target std_srvs_generate_messages_cpp
+[ 27%] Built target topic_tools_generate_messages_nodejs
+[ 27%] Built target topic_tools_generate_messages_eus
+[ 27%] Built target topic_tools_generate_messages_lisp
+[ 27%] Built target topic_tools_generate_messages_cpp
+[ 27%] Built target topic_tools_generate_messages_py
+[ 27%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 27%] Built target dynamic_reconfigure_generate_messages_eus
+[ 27%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 27%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 27%] Built target dynamic_reconfigure_generate_messages_py
+[ 27%] Built target dynamic_reconfigure_gencfg
+[ 27%] Built target tf_generate_messages_lisp
+[ 27%] Built target tf_generate_messages_eus
+[ 27%] Built target tf_generate_messages_cpp
+[ 27%] Built target actionlib_generate_messages_eus
+[ 27%] Built target pcl_msgs_generate_messages_py
+[ 27%] Built target pcl_msgs_generate_messages_lisp
+[ 27%] Built target tf2_msgs_generate_messages_cpp
+[ 27%] Built target pcl_msgs_generate_messages_eus
+[ 27%] Built target tf_generate_messages_py
+[ 27%] Built target pcl_msgs_generate_messages_cpp
+[ 27%] Built target bond_generate_messages_eus
+[ 27%] Built target bond_generate_messages_lisp
+[ 27%] Built target nodelet_topic_tools_gencfg
+[ 27%] Built target pcl_msgs_generate_messages_nodejs
+[ 27%] Built target tf_generate_messages_nodejs
+[ 27%] Built target bond_generate_messages_py
+[ 27%] Built target pcl_ros_gencfg
+[ 27%] Built target nodelet_generate_messages_nodejs
+[ 27%] Built target nodelet_generate_messages_cpp
+[ 27%] Built target tf2_msgs_generate_messages_eus
+[ 27%] Built target nodelet_generate_messages_py
+[ 27%] Built target bond_generate_messages_cpp
+[ 27%] Built target nodelet_generate_messages_lisp
+[ 27%] Built target tf2_msgs_generate_messages_nodejs
+[ 27%] Built target nodelet_generate_messages_eus
+[ 27%] Built target bond_generate_messages_nodejs
+[ 27%] Built target actionlib_generate_messages_cpp
+[ 27%] Built target tf2_msgs_generate_messages_py
+[ 27%] Built target actionlib_msgs_generate_messages_nodejs
+[ 27%] Built target actionlib_msgs_generate_messages_cpp
+[ 27%] Built target actionlib_generate_messages_nodejs
+[ 27%] Built target actionlib_generate_messages_py
+[ 27%] Built target actionlib_generate_messages_lisp
+[ 27%] Built target actionlib_msgs_generate_messages_eus
+[ 27%] Built target actionlib_msgs_generate_messages_lisp
+[ 27%] Built target actionlib_msgs_generate_messages_py
+Consolidate compiler generated dependencies of target YoloV8_TRT
+[ 28%] Built target YoloV8_TRT
+[ 28%] Built target sensor_msgs_generate_messages_nodejs
+[ 28%] Built target std_msgs_generate_messages_lisp
+[ 28%] Built target std_msgs_generate_messages_eus
+[ 32%] Built target ouster_ros_generate_messages_lisp
+[ 37%] Built target ouster_ros_generate_messages_eus
+[ 40%] Built target livox_ros_driver_generate_messages_eus
+[ 42%] Built target livox_ros_driver_generate_messages_lisp
+[ 42%] Built target std_msgs_generate_messages_nodejs
+[ 42%] Built target std_msgs_generate_messages_cpp
+[ 47%] Built target ouster_ros_generate_messages_nodejs
+[ 51%] Built target ouster_ros_generate_messages_cpp
+[ 52%] Built target livox_ros_driver_generate_messages_cpp
+[ 52%] Built target ouster_ros_gencpp
+Consolidate compiler generated dependencies of target livox_ros_driver_node
+[ 53%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lvx_file.cpp.o
+[ 54%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_hub.cpp.o
+[ 55%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lddc.cpp.o
+[ 56%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/livox_ros_driver.cpp.o
+[ 56%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_lidar.cpp.o
+In file included from /usr/include/string.h:495,
+                 from /usr/include/c++/9/cstring:42,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/rapidjson.h:45,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/stream.h:19,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/memorystream.h:22,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/encodedstream.h:22,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/common/rapidjson/document.h:26,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/livox_ros_driver/lds_lidar.h:36,
+                 from /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:25:
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘int livox_ros::LdsLidar::ParseTimesyncConfig(rapidjson::Document&)’ at /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:605:17:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ specified bound 256 equals destination size [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘int livox_ros::LdsLidar::ParseConfigFile(const char*)’ at /home/kodifly/isds_ws/src/livox_ros_driver/livox_ros_driver/livox_ros_driver/lds_lidar.cpp:668:25:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ specified bound 16 equals destination size [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 57%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds_lvx.cpp.o
+[ 58%] Building CXX object livox_ros_driver/livox_ros_driver/CMakeFiles/livox_ros_driver_node.dir/livox_ros_driver/lds.cpp.o
+[ 59%] Linking CXX executable /home/kodifly/isds_ws/devel/lib/livox_ros_driver/livox_ros_driver_node
+[ 64%] Built target livox_ros_driver_node
+Consolidate compiler generated dependencies of target ouster_ros
+[ 67%] Built target ouster_ros
+[ 68%] Built target livox_ros_driver_generate_messages_nodejs
+Consolidate compiler generated dependencies of target ouster_ros_nodelets
+[ 74%] Built target ouster_ros_nodelets
+[ 74%] Built target std_msgs_generate_messages_py
+Consolidate compiler generated dependencies of target cv_bridge
+[ 77%] Built target cv_bridge
+[ 83%] Built target ouster_ros_generate_messages_py
+Consolidate compiler generated dependencies of target sensor_recorder_node
+[ 85%] Built target sensor_recorder_node
+[ 85%] Built target ouster_ros_generate_messages
+Consolidate compiler generated dependencies of target rtsp_camera_proxy
+[ 88%] Built target rtsp_camera_proxy
+Consolidate compiler generated dependencies of target publish_rtsp_stream
+[ 90%] Built target publish_rtsp_stream
+Consolidate compiler generated dependencies of target grabImgWithTrigger
+[ 92%] Built target grabImgWithTrigger
+Consolidate compiler generated dependencies of target cv_bridge_boost
+[ 94%] Built target cv_bridge_boost
+[ 97%] Built target livox_ros_driver_generate_messages_py
+Consolidate compiler generated dependencies of target image_geometry
+[100%] Built target image_geometry
+[100%] Built target livox_ros_driver_generate_messages
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/kodifly/isds_ws/install/_setup_util.py
+-- Installing: /home/kodifly/isds_ws/install/env.sh
+-- Installing: /home/kodifly/isds_ws/install/setup.bash
+-- Installing: /home/kodifly/isds_ws/install/local_setup.bash
+-- Installing: /home/kodifly/isds_ws/install/setup.sh
+-- Installing: /home/kodifly/isds_ws/install/local_setup.sh
+-- Installing: /home/kodifly/isds_ws/install/setup.zsh
+-- Installing: /home/kodifly/isds_ws/install/local_setup.zsh
+-- Installing: /home/kodifly/isds_ws/install/setup.fish
+-- Installing: /home/kodifly/isds_ws/install/local_setup.fish
+-- Installing: /home/kodifly/isds_ws/install/.rosinstall
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/opencv_tests.pc
+-- Installing: /home/kodifly/isds_ws/install/share/opencv_tests/cmake/opencv_testsConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/opencv_tests/cmake/opencv_testsConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/opencv_tests/package.xml
+-- Installing: /home/kodifly/isds_ws/install/share/vision_opencv/package.xml
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/gps_rtk.pc
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/cmake/gps_rtkConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/cmake/gps_rtkConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/package.xml
+-- Installing: /home/kodifly/isds_ws/install/lib/gps_rtk/enable_tp5.py
+-- Installing: /home/kodifly/isds_ws/install/lib/gps_rtk/gnss_processor.py
+-- Installing: /home/kodifly/isds_ws/install/lib/gps_rtk/gnss_processor_old.py
+-- Installing: /home/kodifly/isds_ws/install/lib/gps_rtk/enable_nmea.sh
+-- Installing: /home/kodifly/isds_ws/install/lib/gps_rtk/start_str2str.sh
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/launch
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/launch/rtk.launch
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/launch/str.launch
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/config
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/config/str2str_config.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/gps_rtk/config/ntrip_config.yaml
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/cv_bridge.pc
+-- Installing: /home/kodifly/isds_ws/install/share/cv_bridge/cmake/cv_bridge-extras.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/cv_bridge/package.xml
++ cd /home/kodifly/isds_ws/src/vision_opencv/cv_bridge
++ mkdir -p /home/kodifly/isds_ws/install/lib/python3/dist-packages
++ /usr/bin/env PYTHONPATH=/home/kodifly/isds_ws/install/lib/python3/dist-packages:/home/kodifly/isds_ws/build/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/kodifly/isds_ws/build /usr/bin/python3 /home/kodifly/isds_ws/src/vision_opencv/cv_bridge/setup.py egg_info --egg-base /home/kodifly/isds_ws/build/vision_opencv/cv_bridge build --build-base /home/kodifly/isds_ws/build/vision_opencv/cv_bridge install --root=/ --install-layout=deb --prefix=/home/kodifly/isds_ws/install --install-scripts=/home/kodifly/isds_ws/install/bin
+running egg_info
+creating /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/cv_bridge.egg-info
+writing /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/cv_bridge.egg-info/PKG-INFO
+writing dependency_links to /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/cv_bridge.egg-info/dependency_links.txt
+writing top-level names to /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/cv_bridge.egg-info/top_level.txt
+writing manifest file '/home/kodifly/isds_ws/build/vision_opencv/cv_bridge/cv_bridge.egg-info/SOURCES.txt'
+reading manifest file '/home/kodifly/isds_ws/build/vision_opencv/cv_bridge/cv_bridge.egg-info/SOURCES.txt'
+writing manifest file '/home/kodifly/isds_ws/build/vision_opencv/cv_bridge/cv_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/lib
+creating /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/lib/cv_bridge
+copying python/cv_bridge/__init__.py -> /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/lib/cv_bridge
+copying python/cv_bridge/core.py -> /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/lib/cv_bridge
+running install
+running install_lib
+creating /home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge
+copying /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/lib/cv_bridge/__init__.py -> /home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge
+copying /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/lib/cv_bridge/core.py -> /home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge
+byte-compiling /home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge/core.py to core.cpython-38.pyc
+running install_egg_info
+Copying /home/kodifly/isds_ws/build/vision_opencv/cv_bridge/cv_bridge.egg-info to /home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge-1.15.0.egg-info
+Skipping SOURCES.txt
+running install_scripts
+-- Installing: /home/kodifly/isds_ws/install/include/cv_bridge
+-- Installing: /home/kodifly/isds_ws/install/include/cv_bridge/rgb_colors.h
+-- Installing: /home/kodifly/isds_ws/install/include/cv_bridge/cv_bridge.h
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge/boost/__init__.py
+-- Installing: /home/kodifly/isds_ws/install/lib/libcv_bridge.so
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/libcv_bridge.so" to ""
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge/boost/cv_bridge_boost.so
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/python3/dist-packages/cv_bridge/boost/cv_bridge_boost.so" to ""
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/distance_trigger.pc
+-- Installing: /home/kodifly/isds_ws/install/share/distance_trigger/cmake/distance_triggerConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/distance_trigger/cmake/distance_triggerConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/distance_trigger/package.xml
+-- Installing: /home/kodifly/isds_ws/install/lib/distance_trigger/trigger_node.py
+-- Installing: /home/kodifly/isds_ws/install/share/distance_trigger/launch
+-- Installing: /home/kodifly/isds_ws/install/share/distance_trigger/launch/trigger.launch
+-- Installing: /home/kodifly/isds_ws/install/share/distance_trigger/launch/run_sensors
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/image_geometry.pc
+-- Installing: /home/kodifly/isds_ws/install/share/image_geometry/cmake/image_geometryConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/image_geometry/cmake/image_geometryConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/image_geometry/package.xml
++ cd /home/kodifly/isds_ws/src/vision_opencv/image_geometry
++ mkdir -p /home/kodifly/isds_ws/install/lib/python3/dist-packages
++ /usr/bin/env PYTHONPATH=/home/kodifly/isds_ws/install/lib/python3/dist-packages:/home/kodifly/isds_ws/build/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/kodifly/isds_ws/build /usr/bin/python3 /home/kodifly/isds_ws/src/vision_opencv/image_geometry/setup.py egg_info --egg-base /home/kodifly/isds_ws/build/vision_opencv/image_geometry build --build-base /home/kodifly/isds_ws/build/vision_opencv/image_geometry install --root=/ --install-layout=deb --prefix=/home/kodifly/isds_ws/install --install-scripts=/home/kodifly/isds_ws/install/bin
+running egg_info
+creating /home/kodifly/isds_ws/build/vision_opencv/image_geometry/image_geometry.egg-info
+writing /home/kodifly/isds_ws/build/vision_opencv/image_geometry/image_geometry.egg-info/PKG-INFO
+writing dependency_links to /home/kodifly/isds_ws/build/vision_opencv/image_geometry/image_geometry.egg-info/dependency_links.txt
+writing top-level names to /home/kodifly/isds_ws/build/vision_opencv/image_geometry/image_geometry.egg-info/top_level.txt
+writing manifest file '/home/kodifly/isds_ws/build/vision_opencv/image_geometry/image_geometry.egg-info/SOURCES.txt'
+reading manifest file '/home/kodifly/isds_ws/build/vision_opencv/image_geometry/image_geometry.egg-info/SOURCES.txt'
+writing manifest file '/home/kodifly/isds_ws/build/vision_opencv/image_geometry/image_geometry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kodifly/isds_ws/build/vision_opencv/image_geometry/lib
+creating /home/kodifly/isds_ws/build/vision_opencv/image_geometry/lib/image_geometry
+copying src/image_geometry/cameramodels.py -> /home/kodifly/isds_ws/build/vision_opencv/image_geometry/lib/image_geometry
+copying src/image_geometry/__init__.py -> /home/kodifly/isds_ws/build/vision_opencv/image_geometry/lib/image_geometry
+running install
+running install_lib
+creating /home/kodifly/isds_ws/install/lib/python3/dist-packages/image_geometry
+copying /home/kodifly/isds_ws/build/vision_opencv/image_geometry/lib/image_geometry/cameramodels.py -> /home/kodifly/isds_ws/install/lib/python3/dist-packages/image_geometry
+copying /home/kodifly/isds_ws/build/vision_opencv/image_geometry/lib/image_geometry/__init__.py -> /home/kodifly/isds_ws/install/lib/python3/dist-packages/image_geometry
+byte-compiling /home/kodifly/isds_ws/install/lib/python3/dist-packages/image_geometry/cameramodels.py to cameramodels.cpython-38.pyc
+byte-compiling /home/kodifly/isds_ws/install/lib/python3/dist-packages/image_geometry/__init__.py to __init__.cpython-38.pyc
+running install_egg_info
+Copying /home/kodifly/isds_ws/build/vision_opencv/image_geometry/image_geometry.egg-info to /home/kodifly/isds_ws/install/lib/python3/dist-packages/image_geometry-1.15.0.egg-info
+Skipping SOURCES.txt
+running install_scripts
+-- Installing: /home/kodifly/isds_ws/install/include/image_geometry/
+-- Installing: /home/kodifly/isds_ws/install/include/image_geometry//exports.h
+-- Installing: /home/kodifly/isds_ws/install/include/image_geometry//pinhole_camera_model.h
+-- Installing: /home/kodifly/isds_ws/install/include/image_geometry//stereo_camera_model.h
+-- Installing: /home/kodifly/isds_ws/install/lib/libimage_geometry.so
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/libimage_geometry.so" to ""
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/mvs_ros_driver.pc
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/cmake/mvs_ros_driverConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/cmake/mvs_ros_driverConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/package.xml
+-- Installing: /home/kodifly/isds_ws/install/lib/mvs_ros_driver/grabImgWithTrigger
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/mvs_ros_driver/grabImgWithTrigger" to ""
+-- Installing: /home/kodifly/isds_ws/install/lib/libtensorrt_cpp_api.so
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/libtensorrt_cpp_api.so" to ""
+-- Installing: /home/kodifly/isds_ws/install/lib/libYoloV8_TRT.so
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/libYoloV8_TRT.so" to ""
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/launch
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/launch/mvs_camera_DA5148683.launch
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/launch/mvs_multi_cam.launch
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/launch/mvs_camera_trigger.launch
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/launch/hikrobot.launch
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/launch/mvs_multiple_camera.launch
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config/DA5148683.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config/DA4930148.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config/DA5324655.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config/DA6102933.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config/DA5324645.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config/right_camera_trigger.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config/DA5148680.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/config/left_camera_trigger.yaml
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/best.onnx
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/centerface_bnmerged.onnx
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/0915.onnx
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/best.pt
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/best.engine.NVIDIAGeForceRTX3070.fp16.1.1
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/0915_from_yolo11s.onnx
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/carplate_fp16.onnx
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/best.engine.NVIDIAGeForceRTX3080.fp16.1.1
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/models/best.engine.Orin.fp16.1.1
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/rviz_cfg
+-- Installing: /home/kodifly/isds_ws/install/share/mvs_ros_driver/rviz_cfg/mvs_camera.rviz
+-- Installing: /home/kodifly/isds_ws/install/include/mvs_ros_driver
+-- Installing: /home/kodifly/isds_ws/install/include/mvs_ros_driver/yolov8.h
+-- Installing: /home/kodifly/isds_ws/install/include/rtsp_image_transport/RTSPPublisherConfig.h
+-- Installing: /home/kodifly/isds_ws/install/include/rtsp_image_transport/RTSPSubscriberConfig.h
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/__init__.py
+Listing '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/rtsp_image_transport/cfg'...
+Compiling '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/rtsp_image_transport/cfg/RTSPPublisherConfig.py'...
+Compiling '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/rtsp_image_transport/cfg/RTSPSubscriberConfig.py'...
+Compiling '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/rtsp_image_transport/cfg/__init__.py'...
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/cfg
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/cfg/RTSPPublisherConfig.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/cfg/__init__.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/cfg/__pycache__
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/cfg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/cfg/__pycache__/RTSPSubscriberConfig.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/cfg/__pycache__/RTSPPublisherConfig.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/rtsp_image_transport/cfg/RTSPSubscriberConfig.py
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/rtsp_image_transport.pc
+-- Installing: /home/kodifly/isds_ws/install/share/rtsp_image_transport/cmake/rtsp_image_transportConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/rtsp_image_transport/cmake/rtsp_image_transportConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/rtsp_image_transport/package.xml
+-- Installing: /home/kodifly/isds_ws/install/lib/rtsp_image_transport/publish_rtsp_stream
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/rtsp_image_transport/publish_rtsp_stream" to ""
+-- Installing: /home/kodifly/isds_ws/install/lib/rtsp_image_transport/rtsp_camera_proxy
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/rtsp_image_transport/rtsp_camera_proxy" to ""
+-- Installing: /home/kodifly/isds_ws/install/lib/librtsp_image_transport.so
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/librtsp_image_transport.so" to ""
+-- Installing: /home/kodifly/isds_ws/install/share/rtsp_image_transport/rtsp_image_transport_plugins.xml
+-- Installing: /home/kodifly/isds_ws/install/share/rtsp_image_transport/launch
+-- Installing: /home/kodifly/isds_ws/install/share/rtsp_image_transport/launch/stream_cams_old.launch
+-- Installing: /home/kodifly/isds_ws/install/share/rtsp_image_transport/launch/stream_camera.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/msg/CustomPoint.msg
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/msg/CustomMsg.msg
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/cmake/livox_ros_driver-msg-paths.cmake
+-- Installing: /home/kodifly/isds_ws/install/include/livox_ros_driver
+-- Installing: /home/kodifly/isds_ws/install/include/livox_ros_driver/CustomMsg.h
+-- Installing: /home/kodifly/isds_ws/install/include/livox_ros_driver/CustomPoint.h
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/livox_ros_driver
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/livox_ros_driver/msg
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/livox_ros_driver/msg/CustomPoint.l
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/livox_ros_driver/msg/CustomMsg.l
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/livox_ros_driver/manifest.l
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/livox_ros_driver
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/livox_ros_driver/msg
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/livox_ros_driver/msg/_package_CustomPoint.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/livox_ros_driver/msg/_package_CustomMsg.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/livox_ros_driver/msg/livox_ros_driver-msg.asd
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/livox_ros_driver/msg/_package.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/livox_ros_driver/msg/CustomMsg.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/livox_ros_driver/msg/CustomPoint.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/livox_ros_driver
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/livox_ros_driver/_index.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/livox_ros_driver/msg
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/livox_ros_driver/msg/_index.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/livox_ros_driver/msg/CustomPoint.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/livox_ros_driver/msg/CustomMsg.js
+Listing '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/livox_ros_driver'...
+Listing '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/livox_ros_driver/msg'...
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/__init__.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/msg
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/msg/_CustomMsg.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/msg/_CustomPoint.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/msg/__init__.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/msg/__pycache__
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/msg/__pycache__/_CustomPoint.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/msg/__pycache__/_CustomMsg.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/__pycache__
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/livox_ros_driver/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/livox_ros_driver.pc
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/cmake/livox_ros_driver-msg-extras.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/cmake/livox_ros_driverConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/cmake/livox_ros_driverConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/package.xml
+-- Installing: /home/kodifly/isds_ws/install/lib/livox_ros_driver/livox_ros_driver_node
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/livox_ros_driver/livox_ros_driver_node" to ""
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/lvx_to_rosbag_rviz.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/livox_hub_rviz.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/lvx_to_rosbag.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/livox_lidar_rviz.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/livox_lidar.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/livox_hub_msg.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/livox_lidar_msg.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/livox_hub.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/launch/livox_template.launch
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/config
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/config/display_lidar_points.rviz
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/config/livox_hub_config.json
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/config/livox_lidar_config.json
+-- Installing: /home/kodifly/isds_ws/install/share/livox_ros_driver/config/display_hub_points.rviz
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/msg/PacketMsg.msg
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/msg/Telemetry.msg
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/srv/GetConfig.srv
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/srv/SetConfig.srv
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/srv/GetMetadata.srv
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/cmake/ouster_ros-msg-paths.cmake
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/GetConfigRequest.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/SetConfigResponse.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/PacketMsg.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/GetMetadata.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/SetConfig.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/GetConfig.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/Telemetry.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/GetConfigResponse.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/SetConfigRequest.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/GetMetadataRequest.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/GetMetadataResponse.h
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros/srv
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros/srv/SetConfig.l
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros/srv/GetConfig.l
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros/srv/GetMetadata.l
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros/msg
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros/msg/PacketMsg.l
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros/msg/Telemetry.l
+-- Installing: /home/kodifly/isds_ws/install/share/roseus/ros/ouster_ros/manifest.l
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv/_package_SetConfig.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv/_package_GetMetadata.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv/_package.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv/ouster_ros-srv.asd
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv/_package_GetConfig.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/msg
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/msg/_package_PacketMsg.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/msg/_package.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/msg/Telemetry.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/msg/_package_Telemetry.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/msg/ouster_ros-msg.asd
+-- Installing: /home/kodifly/isds_ws/install/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/srv
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/srv/_index.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/srv/SetConfig.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/srv/GetMetadata.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/srv/GetConfig.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/_index.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/msg
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/msg/_index.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/msg/Telemetry.js
+-- Installing: /home/kodifly/isds_ws/install/share/gennodejs/ros/ouster_ros/msg/PacketMsg.js
+Listing '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/ouster_ros'...
+Listing '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/ouster_ros/msg'...
+Listing '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/ouster_ros/srv'...
+Compiling '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/ouster_ros/srv/_GetConfig.py'...
+Compiling '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/ouster_ros/srv/_GetMetadata.py'...
+Compiling '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/ouster_ros/srv/_SetConfig.py'...
+Compiling '/home/kodifly/isds_ws/devel/lib/python3/dist-packages/ouster_ros/srv/__init__.py'...
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/__init__.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/__pycache__
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/__pycache__/_SetConfig.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/__pycache__/_GetConfig.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/__pycache__/_GetMetadata.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/_GetConfig.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/_SetConfig.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/srv/_GetMetadata.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/__init__.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/msg
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/msg/_PacketMsg.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/msg/__init__.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/msg/__pycache__
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/msg/__pycache__/_Telemetry.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/msg/__pycache__/_PacketMsg.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/msg/_Telemetry.py
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/__pycache__
+-- Installing: /home/kodifly/isds_ws/install/lib/python3/dist-packages/ouster_ros/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/ouster_ros.pc
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/cmake/ouster_ros-msg-extras.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/cmake/ouster_rosConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/package.xml
+-- Installing: /home/kodifly/isds_ws/install/lib/libouster_ros.so
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/libouster_ros.so" to ""
+-- Installing: /home/kodifly/isds_ws/install/lib/libouster_ros_nodelets.so
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/libouster_ros_nodelets.so" to ""
+-- Up-to-date: /home/kodifly/isds_ws/install/include/ouster_ros
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/common_point_types.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/os_point.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/shared_time.hpp
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/sensor_point_types.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/os_sensor_nodelet_base.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/os_ros.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/sensor_http.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/client.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/types.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/impl
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/impl/lidar_scan_impl.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/impl/profile_extension.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/impl/ring_buffer.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/impl/cartesian.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/impl/netcompat.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/impl/packet_writer.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/impl/client_poller.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/defaults.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/lidar_scan.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/udp_packet_source.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/image_processing.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/version.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/util.h
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/nonstd/
+-- Installing: /home/kodifly/isds_ws/install/include/ouster_ros/../ouster/nonstd//optional.hpp
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/LICENSE
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/ouster_ros_nodelets.xml
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/launch
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/launch/sensor.launch
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/launch/sensor_mtp.launch
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/launch/replay_pcap.launch
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/launch/common.launch
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/launch/record.launch
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/launch/driver.launch
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/launch/replay.launch
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/config
+-- Installing: /home/kodifly/isds_ws/install/share/ouster_ros/config/viz.rviz
+-- Installing: /home/kodifly/isds_ws/install/lib/pkgconfig/sensor_record.pc
+-- Installing: /home/kodifly/isds_ws/install/share/sensor_record/cmake/sensor_recordConfig.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/sensor_record/cmake/sensor_recordConfig-version.cmake
+-- Installing: /home/kodifly/isds_ws/install/share/sensor_record/package.xml
+-- Installing: /home/kodifly/isds_ws/install/lib/sensor_record/sensor_recorder_node
+-- Set runtime path of "/home/kodifly/isds_ws/install/lib/sensor_record/sensor_recorder_node" to ""
+-- Installing: /home/kodifly/isds_ws/install/share/sensor_record/launch
+-- Installing: /home/kodifly/isds_ws/install/share/sensor_record/launch/sensor_recorder.launch
+Base path: /home/kodifly/isds_ws
+Source space: /home/kodifly/isds_ws/src
+Build space: /home/kodifly/isds_ws/build
+Devel space: /home/kodifly/isds_ws/devel
+Install space: /home/kodifly/isds_ws/install
+####
+#### Running command: "cmake /home/kodifly/isds_ws/src -DCATKIN_DEVEL_PREFIX=/home/kodifly/isds_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kodifly/isds_ws/install -G Unix Makefiles" in "/home/kodifly/isds_ws/build"
+####
+####
+#### Running command: "make install -j8 -l8" in "/home/kodifly/isds_ws/build"
+####
